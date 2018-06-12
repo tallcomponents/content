@@ -2,12 +2,9 @@
 
 Using this application it is possible to construct new documents from pages from existing documents. This way you can split existing documents into multiple new document, you assemble new documents from multiple existing documents and you can create new pages that are composed of multiple new or existing pages.
 
-
-
 ## Append
 
 Appending pages to a document is extremely simple. The following code shows how a new output document is created from an assortment of new and existing pages. Note that 3 different methods for adding a range of pages are shown.
-
 
 ```
 using ( FileStream file1 = new FileStream( 
@@ -46,14 +43,11 @@ using ( FileStream file3 = new FileStream(
 }
 ```
 
-Code sample: Combine all pages of multiple documents in one document (Append)
-
-
+**Code sample: Combine all pages of multiple documents in one document (Append)**
 
 ## Split
 
 Splitting a document into multiple documents really boils down to the same kind of code that you use to append pages to a document. The following code shows how a document is split in chunks of 5 or less pages:
-
 
 ```
 using ( FileStream fileIn = new FileStream( 
@@ -84,19 +78,17 @@ using ( FileStream fileIn = new FileStream(
 }
 ```
 
-Code sample: Split a document in chunks of 5 or less pages (Split)
-
-
+**Code sample: Split a document in chunks of 5 or less pages (Split)**
 
 ## Imposition
 
 Figure below shows a typical imposition scenario known as 2-up.
 
-<br /><img alt="Typical-imposition-scenario-2-up" src="media/Typical-imposition-scenario-2-up.png" /><br />
-**Typical imposition scenario 2-up**
-<br />
-The following code sample shows how to implement the 2-up scenario.
+![Typical-imposition-scenario-2-up](guide/pdfkit/media/Typical-imposition-scenario-2-up.png)
 
+**Typical imposition scenario 2-up**
+
+The following code sample shows how to implement the 2-up scenario.
 
 ```
 using ( FileStream fileIn = new FileStream( 
@@ -142,6 +134,6 @@ using ( FileStream fileIn = new FileStream(
 }
 ```
 
-Code sample: Create 2-up document (2up)
+**Code sample: Create 2-up document (2up)**
 
 
