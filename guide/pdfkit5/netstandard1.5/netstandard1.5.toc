@@ -1,0 +1,10 @@
+guide\pdfkit\introduction.md:Introduction
+guide\pdfkit\document-structure.md:Document structure
+guide\pdfkit\navigation.md:Navigation
+guide\pdfkit\annotations.md:Annotations
+guide\pdfkit\forms.md:Forms
+guide\pdfkit\digital-signatures.md:Digital signatures
+guide\pdfkit\actions.md:Actions
+guide\pdfkit\appending-splitting-and-imposition.md:Appending, splitting and imposition
+guide\pdfkit\drawing-with-shapes.md:Drawing with shapes
+guide\pdfkit\extract-graphics.md:Extract graphics
