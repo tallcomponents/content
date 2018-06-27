@@ -1,11 +1,8 @@
-# Convert PDF to WBF XPS
+# Convert PDF to WPF XPS
 
 **Note** This chapter only applies to the .NET 3.0 build.
 
-
 In addtion to rendering PDF pages to raster images such as BMP, PNG and JPG, PDFRasterizer,NET 3.o also lets you convert PDF documents to WPF graphics or XPS documents. All vector graphics are preserved. This is new as of version 3.0.
-
-
 
 ## Save PDF as XPS
 

@@ -1,0 +1,12 @@
+introduction:guide\pdfrasterizer3\introduction.md:Introduction
+getting-started:guide\pdfrasterizer\getting-started.md:Getting started
+upgrade-from-2-to-3:guide\pdfrasterizer3\upgrade-from-2-to-3.md:Upgrade from 2.*
+convert-to-raster-image:guide\pdfrasterizer\convert-to-raster.md:Convert to raster image
+convert-to-tiff:guide\pdfrasterizer\convert-to-tiff.md:Convert to TIFF
+printing:guide\pdfrasterizer\printing.md:Printing
+convert-to-wpf-xps:guide\pdfrasterizer\convert-to-wpf-xps.md:Convert to WPF XPS
+progressive-rendering:guide\pdfrasterizer\progressive-rendering.md:Progressive rendering
+text-and-fonts:guide\pdfrasterizer\text-and-fonts.md:Text and fonts
+color-profiles:guide\pdfrasterizer\color-profiles.md:Color profiles
+layers:guide\pdfrasterizer\layers.md:Render layers
+diagnostics:guide\pdfrasterizer\diagnostics.md:Diagnostics
