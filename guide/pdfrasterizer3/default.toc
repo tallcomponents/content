@@ -1,5 +1,5 @@
 introduction:guide\pdfrasterizer3\introduction.md:Introduction
-getting-started:guide\pdfrasterizer\getting-started.md:Getting started
+install:guide\pdfrasterizer\install.md:Install
 upgrade-from-2-to-3:guide\pdfrasterizer3\upgrade-from-2-to-3.md:Upgrade from 2.*
 convert-to-raster-image:guide\pdfrasterizer\convert-to-raster.md:Convert to raster image
 convert-to-tiff:guide\pdfrasterizer\convert-to-tiff.md:Convert to TIFF
