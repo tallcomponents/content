@@ -1,6 +1,6 @@
 # Convert to Raster Formats
 
-Although TIFF is also a raster format, we handle convering PDF documents to TIFF somewhat differently. This is described in <a href="convert-to-tiff">Convert to TIFF</a>
+Although TIFF is also a raster format, we handle convering PDF documents to TIFF somewhat differently. This is described in [Convert to TIFF](convert-to-tiff).
 
 
 
