@@ -6,7 +6,7 @@ An annotation is a rectangular area on a PDF page that the user can interact wit
 
 Annotation is the abstract base class of all annotation classes. The figure below shows the class hierarchy of the annotations that we currently support:
 
-![annotation-class-hierarchy](guide/pdfkit/media/annotation-class-hierarchy.png)
+![annotation-class-hierarchy](/guide/pdfkit/media/annotation-class-hierarchy.png)
 
 Class Annotation has the following members that are common to all annotation types:
 
@@ -139,6 +139,6 @@ sing ( FileStream file = new FileStream(
 
 Code sample: Create a new document with a single page, a note and a popup (AddNote)
 
-![created-from-code-sample](guide/pdfkit/media/created-from-code-sample.png)
+![created-from-code-sample](/guide/pdfkit/media/created-from-code-sample.png)
 
 **Created from Code sample _**Create a new document with a single page, a note and a popup**_**
