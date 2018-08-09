@@ -2,12 +2,10 @@
 
 PDFControls.NET supports printing of PDF documents. This can be done interactively (via a print dialog) or without any user interaction.
 
-
 In order to print interactively, one can use PagesViewer.Print() without passing any additional arguments. This will pop up a print dialog that allows a user to modify a number of print settings. Printing will proceed automatically when the user presses the OK button.
 
-<br /><img alt="Using-Pages Viewer.Print" src="media/Using-PagesViewer-Print.png" /><br />
-**Using PagesViewer.Print()**
-<br />
+![Using PagesViewer.Print](/guide/pdfcontrols/winforms/media/Using-PagesViewer-Print.png)
+
 Next to these calls, PDFControls.NET contains a few control classes that allow one to customize interactive printing. These classes are:
 &nbsp;<ul><li>
 PrintDialog: this class implements the print dialog that get shown by PagesViewer.Print().</li><li>
@@ -94,28 +92,24 @@ UsePrintableArea. When set, care will be taken not to print in areas that the pr
 VerticalAlignment: whether pages should be aligned top, center, or bottom.</li></ul>&nbsp;
 These settings are in effect for all printed pages from the moment they are specified. The professional edition allows one to subscribe to the QueryPagePrintSettings event of the PrintSettings instance, and this allows one to change the PagePrintSettings on the fly for every page that gets printed from that point on until the next change.
 
-
-
 ## PrinterSettings
 
 The PrinterSettings class specifies the (fixed) characteristics of a printer. These setting have largely been derived from the System.Drawing.Printing.PrinterSettings class (more about that below).
-&nbsp;<ul><li>
-CanDuplex: Specifies whether the printer supports duplex printing.</li><li>
-IsDefaultPrinter: Specifies whether the printer is the default printer.</li><li>
-IsPlotter: Specifies whether the printer is a plotter.</li><li>
-MaximumCopies: Specifies the maximum number of copies that the printer can handle.</li><li>
-PaperSizes: The paper sizes that are supported by this printer.</li><li>
-PaperSources: The paper trays of this printer.</li><li>
-PrinterName: The name of this printer.</li><li>
-PrinterResolutions: The resolutions that are supported by this printer.</li><li>
-SupportsColor: Specifies whether the printer supports color.</li><li>
-SystemPrinterSettings: the underlying System.Drawing.Printing.PrinterSettings class. In many cases, access to this instance is of no concern, as common print settings can be controlled by the classes above. Access to this class can be useful however if printer-specific settings need to be accessed that are not covered above. See for example the PrintDialog sample. The implementation of the properties button needs access to this instance in order show a printer-specific properties window.</li></ul>&nbsp;
-&nbsp;<table><tr><th>![Note](media/AlertNote.png) Note</th></tr><tr><td>
+
+- CanDuplex: Specifies whether the printer supports duplex printing.
+- IsDefaultPrinter: Specifies whether the printer is the default printer.
+- IsPlotter: Specifies whether the printer is a plotter.
+- MaximumCopies: Specifies the maximum number of copies that the printer can handle.
+- PaperSizes: The paper sizes that are supported by this printer.
+- PaperSources: The paper trays of this printer.
+- PrinterName: The name of this printer.
+- PrinterResolutions: The resolutions that are supported by this printer.
+- SupportsColor: Specifies whether the printer supports color.
+- SystemPrinterSettings: the underlying System.Drawing.Printing.PrinterSettings class. In many cases, access to this instance is of no concern, as common print settings can be controlled by the classes above. Access to this class can be useful however if printer-specific settings need to be accessed that are not covered above. See for example the PrintDialog sample. The implementation of the properties button needs access to this instance in order show a printer-specific properties window.
+
 Please note the following about the SystemPrinterSettings property.
 
-
 The members of the System.Drawing.Printing.PrinterSettings, do not only contain the printer settings above, but also settings like Copies or DefaultPageSettings, which in turn contains many settings found in PagePrintSettings above. Basically, there is no difference between these settings. Changing them in PrintSettings or PagePrintSettings will change the corresponding settings in System.Drawing.Printing.PrinterSettings and vice versa.
-
 
 Nonetheless it is better to avoid manipulating the settings in SystemPrinterSettings directly. This is not illegal in itself, but our printing controls will not automatically notice any updates in these settings, so they may no longer show the correct values.</td></tr></table>
 
@@ -123,19 +117,12 @@ Nonetheless it is better to avoid manipulating the settings in SystemPrinterSett
 
 One can avoid showing a printing dialog by invoking the Print method of the Document class and passing it a PrintSettings instance. The document will then be printed immediately, using the specified settings.
 
-
 By default, the PrintSettings class will use an instance of System.Drawing.Printing.StandardPrintController for its PrintController. This means that printing will proceed ‘silently’, i.e. no progress box will be shown. If you do want a progress box, please assign an instance of the System.Drawing.Printing.PrintControllerWithStatusDialog class to the PrintController property of the PrintSettings class.
 
-
 Please note that the PrintController class raises a number of events that allow one to monitor progress, and execute custom code. See the relevant .NET documentation for more information.
-
-
 
 ## Font Substitution
 
 By default, PDFControls.NET will send all output to the printer as low-level graphical GDI instructions, such as lines, fills, and images. This is also the case for text. This leads to graphically accurate output, but as a downside, print jobs may become large, and thus, slow.
 
-
 If this is the case, one may consider substituting the PDF fonts by system fonts, provided that system fonts are available that (approximately) resemble the PDF fonts. In this way, text will not be rendered as a collection of lines and fills, but GDI will be told to render the text. This will lead to smaller print jobs. See the chapter on Fonts for details.
-
-

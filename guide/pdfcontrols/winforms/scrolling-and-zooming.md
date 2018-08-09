@@ -51,11 +51,12 @@ Additionally, the PagesViewer defines a ZoomToFitPage method that will set the z
 #### StandardPagesViewer
 
 The StandardPagesViewer defines a ZoomFactors collection, as well as a number of convenient extra zoom methods:
-&nbsp;<ul><li>
-ZoomToActualSize: sets the zoom factor to 1.</li><li>
-ZoomIn(x,y): sets the zoom factor to the next higher value in the ZoomFactors collection, setting the center of the visible area at the specified document location. The zoom factor will never be set to a higher values than the MaxZoom property.</li><li>
-ZoomOut(x,y): sets the zoom factor to the next lower value in the ZoomFactors collection, setting the center of the visible area at the specified document location. The zoom factor will never be set to a lower value than the MinZoom property.</li></ul>&nbsp;
-&nbsp;<table><tr><th>![Note](media/AlertNote.png) Note</th></tr><tr><td>The ZoomFactors collection is ordered from small to large. Adding a factor will automatically place it at the right position in this order. Inserting a factor must be done at the right position, or it will throw an exception.</td></tr></table>
+
+- ZoomToActualSize: sets the zoom factor to 1.
+- ZoomIn(x,y): sets the zoom factor to the next higher value in the ZoomFactors collection, setting the center of the visible area at the specified document location. The zoom factor will never be set to a higher values than the MaxZoom property.
+- ZoomOut(x,y): sets the zoom factor to the next lower value in the ZoomFactors collection, setting the center of the visible area at the specified document location. The zoom factor will never be set to a lower value than the MinZoom property.
+
+Note: The ZoomFactors collection is ordered from small to large. Adding a factor will automatically place it at the right position in this order. Inserting a factor must be done at the right position, or it will throw an exception.
 
 ## Zoom Modes
 

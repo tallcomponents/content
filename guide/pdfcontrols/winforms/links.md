@@ -1,4 +1,4 @@
-# Following links
+# Handling links
 
 By default, the PagesViewer will navigate to link destinations for as long as they are located in the same document. It will not however automatically open URL’s or files (that would impose a security risk).
 
@@ -41,5 +41,6 @@ public class MyActionHandler : DefaultActionHandler
 }
 ```
 
-Custom link actions.
-&nbsp;<table><tr><th>![Note](media/AlertNote.png) Note</th></tr><tr><td>For the standard edition, action handling is restricted to link handling. The professional edition contains more virtuals that can be overridden. These will be explained later.</td></tr></table>&nbsp;
+## Custom link actions.
+
+For the standard edition, action handling is restricted to link handling. The professional edition contains more virtuals that can be overridden. These will be explained later.

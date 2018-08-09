@@ -2,9 +2,8 @@
 
 In essence, PDFControls.NET provides a number of WinForms Viewer Controls that allow one to View PDF documents. The professional edition adds the ability to manipulate and save PDF documents. The class hierarchy for the viewer controls is as follows:
 
-<br /><img alt="viewer-class-hierarchy" src="media/viewer-class-hierarchy.png" /><br />
-**Viewer class hierarchy**
-<br />
+![Viewer class hierarchy](/guide/pdfcontrols/winforms/media/viewer-class-hierarchy.png)
+
 These classes provide the following functionality:
 &nbsp;<ul><li>
 DocumentViewer: this is the base class for all viewers that show PDF documents. Next to viewing, it offers basic navigation functionality such as zooming and panning.</li><li>
@@ -51,17 +50,15 @@ namespace WindowsApplication1
 
 Code sample: A simple viewer.
 
-
 The code above is all that is needed to obtain a viewer that:
-&nbsp;<ul><li>
-Show all pages of a PDF document.</li><li>
-Allows scrolling via scroll bars.</li><li>
-Allows panning by dragging the mouse.</li><li>
-Supports page navigation by clicking on links.</li><li>
-Allows Filling out form fields (professional only)</li></ul>&nbsp;
-<br /><img alt="screenshot-of-the-Simple Viewer-sample-(Pages Viewer)" src="media/screenshot-of-the-SimpleViewer-sample-PagesViewer.png" /><br />
-**Save changes incrementally as an update**
-<br />
+
+- Show all pages of a PDF document
+- Allows scrolling via scroll bars
+- Allows panning by dragging the mouse
+- Supports page navigation by clicking on links
+- Allows Filling out form fields (professional only)
+
+![Save changes incrementally as an update](/guide/pdfcontrols/winforms/media/screenshot-of-the-SimpleViewer-sample-PagesViewer.png)
 
 #### Saving
 
@@ -107,7 +104,9 @@ The EnableAnnotations property, which enables or disables all annotations at onc
 The HighlightAnnotations property, which marks all annotations with a color when set.</li><li>
 The ShowOverflowMarker property which controls whether an overflow marker is shown when there is more text in a field than it can display.</li><li>
 Events that fire when annotations get resized (when CursorMode = SelectAnnotations).</li></ul>&nbsp;
-&nbsp;<table><tr><th>![Note](media/AlertNote.png) Note</th></tr><tr><td>The StandardPagesViewer implements these features via a custom LayoutManager, and - in the professional edition -, with custom interactor factories. We do not recommend changing these for the StandardPagesViewer, as this will lead to undefined behavior.</td></tr></table>
+&nbsp;<table><tr><th>
+
+The StandardPagesViewer implements these features via a custom LayoutManager, and - in the professional edition -, with custom interactor factories. We do not recommend changing these for the StandardPagesViewer, as this will lead to undefined behavior.</td></tr></table>
 
 ## Thumbnails Viewer
 
@@ -119,9 +118,7 @@ If one also assigns a PagesViewer instance to the PagesViewer property of the th
 
 Compile and run the ThumbnailsViewer sample to see this in action.
 
-<br /><img alt="Screenshot-of-Thumbnails Viewer-sample" src="media/Screenshot-of-ThumbnailsViewer-sample.png" /><br />
-**Screenshot of ThumbnailsViewer sample**
-<br />
+![Screenshot of ThumbnailsViewer sample](/guide/pdfcontrols/winforms/media/Screenshot-of-ThumbnailsViewer-sample.png)
 
 ## Document Viewer
 
@@ -139,6 +136,4 @@ If one assigns a PagesViewer instance to the PagesViewer property of the Bookmar
 
 Compile and run the BookmarksViewer sample to see this in action. Please note that you will have to open a PDF document with bookmarks in order for the BookmarksViewer to show anything.
 
-<br /><img alt="Screenshot-of-Book Marks Viewer-sample" src="media/Screenshot-of-BookMarksViewer-sample.png" /><br />
-**Screenshot of BookMarksViewer sample**
-<br />
+![Screenshot of BookMarksViewer sample](/guide/pdfcontrols/winforms/media/Screenshot-of-BookMarksViewer-sample.png)

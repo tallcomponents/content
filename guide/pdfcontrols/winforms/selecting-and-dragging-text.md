@@ -1,15 +1,14 @@
 # Selecting and dragging text
 
 If one sets the CursorMode of the StandardPagesViewer to SelectText, users will be able to select text on a page by dragging the mouse over it. The result of this will be that:
-&nbsp;<ul><li>
-The text gets highlighted.</li><li>
-The text gets added to the current selection.</li><li>
-It becomes possible to drag the text to another interactor (pro only) or application that supports dropping text on it (WordPad for example).</li></ul>&nbsp;
+
+- The text gets highlighted.
+- The text gets added to the current selection.
+- It becomes possible to drag the text to another interactor (pro only) or application that supports dropping text on it (WordPad for example).
+
 See for example the Reader sample. If one clicks on the toolbar icon with the caret, one will be able to select text. The selected text can subsequently be copied via control-C, or dragged.
 
-<br /><img alt="Copying-or-Dragging-selected-text" src="media/Copying-or-Dragging-selected-text.png" /><br />
-**Copying or Dragging selected text.**
-<br />
+![Copying or Dragging selected text](/guide/pdfcontrols/winforms/media/Copying-or-Dragging-selected-text.png)
 
 ## Form Fields (professional only)
 

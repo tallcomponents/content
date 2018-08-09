@@ -18,10 +18,9 @@ The TextSettings contain a FontSubstitutionMap property. This property applies t
 
 The font substitution map contains entries that map PDF font names to font files. If you open the PDF document using the Adobe PDF Reader and hit CTRL+D and then go to the Fonts tab, you may see the following fonts listed:
 
-<br /><img alt="font" src="media/font.png" /><br />
+![fonts](/guide/pdfcontrols/winforms/media/font.png)
+
 The PDF font name is the first line of each entry above.
-
-
 
 #### Font search path
 

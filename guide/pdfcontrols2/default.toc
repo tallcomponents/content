@@ -1,4 +1,13 @@
 introduction:guide\pdfcontrols2\winforms\introduction.md:Introduction
+viewing:guide\pdfcontrols\winforms\viewing.md:Viewing
+printing:guide\pdfcontrols\winforms\printing.md:Printing
+links:guide\pdfcontrols\winforms\links.md:Handling links
+scrolling-and-zooming:guide\pdfcontrols\winforms\scrolling-and-zooming.md:Scrolling and zooming
+page-layout:guide\pdfcontrols\winforms\page-layout.md:Page layout
+selecting-and-dragging-text:guide\pdfcontrols\winforms\selecting-and-dragging-text.md:Selecting and dragging text
+searching-and-highlighting-text:guide\pdfcontrols\winforms\searching-and-highlighting-text.md:Searching and highlighting text
+fonts:guide\pdfcontrols\winforms\fonts.md:Fonts
+interactors:guide\pdfcontrols\winforms\interactors.md:Interactors
 document-structure:guide\pdfkit\document-structure.md:Document structure
 navigation:guide\pdfkit\navigation.md:Navigation
 annotations:guide\pdfkit\annotations.md:Annotations
