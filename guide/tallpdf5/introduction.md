@@ -26,6 +26,7 @@ Embed simple or complex drawings consisting of primitive shapes such as lines, b
 
 ## What is new in 5.0?
 
-[todo]
-
+- Automatic tagging of generated content
+- Support of ASP.NET Core
+- Support of Xamarin
 
