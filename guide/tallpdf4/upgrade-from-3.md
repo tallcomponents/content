@@ -1,4 +1,4 @@
-# Upgrading from TallPDF.NET 3.0
+# Upgrade from TallPDF.NET 3.0
 
 TallPDF.NET 4.0 is backwards compatible TallPDF.NET 3.0, except for these 2 changes
 &nbsp;<ul><li>The API of the XhtmlParagraph has been modified to accommodate new features.</li><li>RTF conversion is no longer supported.</li></ul>&nbsp;
