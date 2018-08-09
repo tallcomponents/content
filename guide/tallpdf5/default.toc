@@ -1,5 +1,5 @@
 introduction:guide\tallpdf5\introduction.md:Introduction
-getting-started:guide\tallpdf\getting-started.md:Getting started
+upgrade:guide\tallpdf5\upgrade-from-4.md:Upgrade from 4.0
 document:guide\tallpdf\document.md:Document
 sections:guide\tallpdf\sections.md:Sections
 paragraphs:guide\tallpdf\paragraphs.md:Paragraphs
