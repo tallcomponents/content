@@ -1,0 +1,10 @@
+introduction:guide\pdfcontrols2\winforms\introduction.md:Introduction
+document-structure:guide\pdfkit\document-structure.md:Document structure
+navigation:guide\pdfkit\navigation.md:Navigation
+annotations:guide\pdfkit\annotations.md:Annotations
+forms:guide\pdfkit\forms.md:Forms
+digital-signatures:guide\pdfkit\digital-signatures.md:Digital signatures
+actions:guide\pdfkit\actions.md:Actions
+appending-splitting-and-imposition:guide\pdfkit\appending-splitting-and-imposition.md:Appending, splitting and imposition
+drawing-with-shapes:guide\pdfkit\drawing-with-shapes.md:Drawing with shapes
+extract-graphics:guide\pdfkit\extract-graphics.md:Extract graphics
