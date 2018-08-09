@@ -4,7 +4,7 @@ This guide helps you understand the TallPDF.NET 5.0 class library. It walks thro
 
 ## Features
 
-TallPDF.NET is a 100% managed (verifiable) .NET class library for dynamic generation of PDF documents. It consists of just a single assembly that can be xcopy-deployed. It has no dependencies other than the .NET framework. Central to TallPDF.NET is a consistent and highly intuitive object model consisting of classes like Document, Section, TextParagraph, Table, Header, Footer, etc. The focus of the development team is always to ease the task of integrating our class libray in a larger application.
+TallPDF.NET 5.0 is a 100% managed (verifiable) .NET class library for dynamic generation of PDF documents. Central to TallPDF.NET is a consistent and highly intuitive object model consisting of classes like Document, Section, TextParagraph, Table, Header, Footer, etc. The focus of the development team is always to ease the task of integrating our class libray in a larger application.
 
 These are TallPDF.NET’s primary features:
 &nbsp;<ul><li>
@@ -27,9 +27,5 @@ Embed simple or complex drawings consisting of primitive shapes such as lines, b
 ## What is new in 5.0?
 
 [todo]
-
-## Upgrading from TallPDF.NET 4.0
-
-TallPDF 5.0 is backward compatible with TallPDF 4.0. 
 
 
