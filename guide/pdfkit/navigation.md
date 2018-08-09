@@ -6,7 +6,7 @@ In addition to the standard navigation means of a PDF reader application, PDF al
 
 A destination can either be internal or remote. An internal destination is a location inside the current PDF document. A remote destination points to a location inside another PDF document. Finally, a destination can be named. A named destination can be resolved to an internal destination through the Document.NamedDestinations property. This is a collection that maps names to internal destinations. Destination is an abstract base class. InternalDestination, RemoteDestination and NamedDestination are concrete specializations. See class hierarchy below.
 
-![destination-class-hierarchy](guide/pdfkit/media/destination-class-hierarchy.png)
+![destination-class-hierarchy](/guide/pdfkit/media/destination-class-hierarchy.png)
 
 ## Internal destination
 
@@ -78,7 +78,7 @@ A PDF document has a bookmarks tree which is also known as the document outline 
 
 The following code splits a document into parts according to its top-level bookmarks. Each part is named according to the title of the bookmark.
 
-![bookmarks](guide/pdfkit/media/bookmarks.png)
+![bookmarks](/guide/pdfkit/media/bookmarks.png)
 
 ```
 BookmarkCollection bookmarks = document.Bookmarks;

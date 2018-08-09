@@ -4,7 +4,7 @@ Paragraphs are the primary content building blocks of a document. All paragraph 
 
 Paragraph specializations are Drawing, Image, Table, HorizontalLine, ParagraphCollection, RtfParagraph, XhtmlParagraph, TextParagraph, NumberedItem, BookmarkParagraph and Heading.
 
-![paragraph-class-hierarchy](guide/tallpdf/media/paragraph-class-hierarchy.png)
+![paragraph-class-hierarchy](/guide/tallpdf/media/paragraph-class-hierarchy.png)
 
 The content inside Section, Area and Cell (Defined in Chapter <a href="tables">Tables</a>) objects is defined as a collection of Paragraph objects. Paragraph is an abstract class from which a number of paragraphs derive. This Chapter discusses the commonality of all these classes. The following chapters discuss specific paragraphs such as TextParagraph, Image, Table and Drawing in more detail.
 
@@ -45,7 +45,7 @@ Paragraph.RightIndentation adds additional white space between the right edge of
 Paragraph.HorizontalAlignment aligns the paragraph with respect to the left and right margins of the page.</li></ul>&nbsp;
 See: _Paragraph positioning relative to the cursor_
 
-![paragraph-positioning-relative-to-the-cursor](guide/tallpdf/media/paragraph-positioning-relative-to-the-cursor.png)
+![paragraph-positioning-relative-to-the-cursor](/guide/tallpdf/media/paragraph-positioning-relative-to-the-cursor.png)
 
 ## Flow Constraints
 
@@ -59,9 +59,9 @@ The DoNotBreak and KeepWithNext constraints are typically applied to headings (n
 
 The following three figures illustrate the DoNotBreak and KeepWithNext flow constraints.
 
-![paragraph-flow-without-constraints](guide/tallpdf/media/paragraph-flow-without-constraints.png)
+![paragraph-flow-without-constraints](/guide/tallpdf/media/paragraph-flow-without-constraints.png)
 
-![do-not-break-flow-constraint](guide/tallpdf/media/do-not-break-flow-constraint.png)
+![do-not-break-flow-constraint](/guide/tallpdf/media/do-not-break-flow-constraint.png)
 
-![keep-with-next-flow-constraint](guide/tallpdf/media/keep-with-next-flow-constraint.png)
+![keep-with-next-flow-constraint](/guide/tallpdf/media/keep-with-next-flow-constraint.png)
 

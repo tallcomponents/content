@@ -2,9 +2,7 @@
 
 The PDF specification allows you to group graphics objects together in layers and turn visiblity selectively on and off in any combination. This is typically used in e..g CAD drawing to show/hide levels of details. The following snapshot from the Adobe PDF Reader shows how the user can turn on/off visibility of layers.
 
-<br /><img alt="visibility-of-layers-can-be-turned-on-and-off" src="media/visibility-of-layers-can-be-turned-on-and-off.png" /><br />
-**Visibility of layers can be turned on and off**
-<br />
+![Visibility of layers can be turned on and off](/guide/pdfrasterizer/media/visibility-of-layers-can-be-turned-on-and-off.png)
 
 ## Basic code sample
 

@@ -2,7 +2,7 @@
 
 PDF documents may includes fields that the user may fill-out. Such PDF documents are referred to as PDF forms. A typical example is an IRS tax form such as the W-4.
 
-![form](guide/pdfkit/media/form.png)
+![form](/guide/pdfkit/media/form.png)
 
 ## Fields
 
@@ -11,7 +11,7 @@ A typical PDF form contains multiple fields of different types. E.g. text fields
 
 The class TallComponents.PDF.Forms.Fields.Field represent a PDF form field. It is an abstract base class that has the following inheritance hierarchy:
 
-![fields-hierarchy](guide/pdfkit/media/fields-hierarchy.png)
+![fields-hierarchy](/guide/pdfkit/media/fields-hierarchy.png)
 
 **Fields hierarchy (UnknowmField and UnknowBarcodeField omitted)**
 
@@ -21,13 +21,13 @@ All fields in a PDF document can be accessed through the Document.Fields propert
 
 A widget is an annotation that provides the visual representation of a field. It also allows the user to interact with the field, e.g. to enter a text or select a date from a calendar control. In general, a field can have multiple widgets but in most cases it only has one. A field is contained by a document. A widget is contained by a page.
 
-![document-fields-pages-and-widgets](guide/pdfkit/media/document-fields-pages-and-widgets.png)
+![document-fields-pages-and-widgets](/guide/pdfkit/media/document-fields-pages-and-widgets.png)
 
 **Document, fields, pages and widgets**
 
 The following diagram shows the Widget inheritance hierarchy.
 
-![widget-inheritance-hierarchy](guide/pdfkit/media/widget-inheritance-hierarchy.png)
+![widget-inheritance-hierarchy](/guide/pdfkit/media/widget-inheritance-hierarchy.png)
 
 **Widget inheritance hierarchy**
 
@@ -91,7 +91,7 @@ using ( FileStream file = new FileStream(
 
 Code sample: Create a new document with a single page and a text field (AddTextField)
 
-![text-field-as-created-by-code-sample](guide/pdfkit/media/text-field-as-created-by-code-sample.png)
+![text-field-as-created-by-code-sample](/guide/pdfkit/media/text-field-as-created-by-code-sample.png)
 
 **Textfield as created by Code sample _Create a new document with a single page and a text field_**
 
@@ -137,7 +137,7 @@ Code sample: Fill fields (FillFields)
 
 At each point a field has a value. This can be text entered into a text field or the signature state of a signature field. The collection of all values of all fields of a document is referred to as form data. Form data can be persisted in different formats (e.g The Acrobat JavaScript Scripting Reference mentions a form data format called ‘XFD’. We have no idea what this format is and we suspect that it is a typo (from XFDF which is included as well)), the most known being Form Data Format (FDF). The class FormData is the abstract base class of all classes that each represent one format of persisted form data. The following inheritance hierarchy shows the different FormData classes.
 
-![Form Data-inheritance-hierarchy](guide/pdfkit/media/FormData-inheritance-hierarchy.png)
+![Form Data-inheritance-hierarchy](/guide/pdfkit/media/FormData-inheritance-hierarchy.png)
 
 **FormData inheritance hierarchy**
 

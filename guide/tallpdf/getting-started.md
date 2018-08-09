@@ -47,7 +47,7 @@ TallPDF.NET does not support the legacy technologies COM and ASP out of the box.
 
 The TallPDF.NET 4.0 installation includes the XML document file TallComponents.PDF.Layout.xml which is generated from our C# comments. If this file is in the same folder as the TallComponents.PDF.Layout.dll that is referenced from your project, TallPDF.NET documentation is added to Visual Studio .NET IntelliSense as shown in the following figure.
 
-![visual-studio-.NET-code-intellisense](guide/tallpdf/media/visual-studio-NET-code-intellisense.png)
+![visual-studio-.NET-code-intellisense](/guide/tallpdf/media/visual-studio-NET-code-intellisense.png)
 
 #### Visual Studio .NET IntelliSense (XML)
 
@@ -56,9 +56,9 @@ The TallPDF.NET 4.0 installation includes the TallPDF.NET 4.0 XML schema file Ta
 <program files (x86)>\Microsoft Visual Studio <version>\Xml\Schemas</li></ul>&nbsp;
 Now you can select it as the targetSchema in the Properties view of Visual Studio .NET after which IntelliSense support is added.
 
-![select-the-TallPDF.NET-4.0-XML-schema-file](guide/tallpdf/media/select-the-TallPDF-NET-40-XML-schema-file.png)
+![select-the-TallPDF.NET-4.0-XML-schema-file](/guide/tallpdf/media/select-the-TallPDF-NET-40-XML-schema-file.png)
 
-![visual-studio-.NET-XML-intellisense](guide/tallpdf/media/visual-studio-NET-XML-intellisense.png)
+![visual-studio-.NET-XML-intellisense](/guide/tallpdf/media/visual-studio-NET-XML-intellisense.png)
 
 ## Hello World Console Application – C#
 

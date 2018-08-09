@@ -2,7 +2,7 @@
 
 The top-level structure of a PDF document is shown below.
 
-![document-structure](guide/pdfkit/media/document-structure.png)
+![document-structure](/guide/pdfkit/media/document-structure.png)
 
 You can either open an existing document or create a new document as shown in the following code sample:
 

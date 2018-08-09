@@ -2,7 +2,7 @@
 
 A document consists of one ore more sections. The content of a section is defined by one or more paragraphs. The paragraph are rendered into one or more pages. The section defines the settings for all these pages. These setting include headers and footers, page size and margins and columns. The figure below shows how sections relate to pages.
 
-![a-section-renders-its-paragraphs-into-one-or-more-pages](guide/tallpdf/media/a-section-renders-its-paragraphs-into-one-or-more-pages.png)
+![a-section-renders-its-paragraphs-into-one-or-more-pages](/guide/tallpdf/media/a-section-renders-its-paragraphs-into-one-or-more-pages.png)
 
 The following code snippets show how to create a new document and add sections to the document.
 
@@ -38,7 +38,7 @@ All pages that are rendered from the same section have the same size and margins
 
 The margins of the pages can be set through the Margins properties of Section. The paragraphs will be flowed inside these margins. The top margin and the bottom margin define the space reserved for the header and footer, respectively.
 
-![page-size-and-margins](guide/tallpdf/media/page-size-and-margins.png)
+![page-size-and-margins](/guide/tallpdf/media/page-size-and-margins.png)
 
 The following code snippets show how to set the page size and the margins of a section.
 
@@ -78,7 +78,7 @@ EvenFooter: The content of this footer will be repeated at the bottom of each ev
 OddFooter: The content of this footer will be repeated at the bottom of each odd page.</li></ul>&nbsp;
 This is illustrated in the following figure:
 
-![headers-and-footers](guide/tallpdf/media/headers-and-footers.png)
+![headers-and-footers](/guide/tallpdf/media/headers-and-footers.png)
 
 The content of both the header and the footer is defined by a collection of paragraphs that will be flowed from top to bottom in the header and footer areas. A header renders from the very top of the page down until the top margin of the section as shown in Figure . Because normally you want to have some whitespace above the header content, you should set the Header.Margin.Top property as shown in the code sample below.
 
@@ -103,7 +103,7 @@ Code sample: Add headers and footers in C#
 
 Associated with a section is an array of columns. These are accessed through the Section.Columns property. By default, a section has 1 column. You can specifiy the width of each column and the spacing between each column pair (if any). Column settings are made per section. Paragraph of a multi-column section flow from one column to the next. This is illustrated in the next figure.
 
-![columns](guide/tallpdf/media/columns.png)
+![columns](/guide/tallpdf/media/columns.png)
 
 The following code samples show how to add and configure columns.
 
@@ -145,7 +145,7 @@ Code sample: Add columns in VB.NET
 
 In PDF you can define different boxes per page. The most common box is the media box which simply represents the entire page. Probably it is the only box you are interested in. You set the media box implicitly by setting Section.PageSize. The following figure illustrates the other boxes.
 
-![page-boxes](guide/tallpdf/media/page-boxes.png)
+![page-boxes](/guide/tallpdf/media/page-boxes.png)
 
 #### Section.CropBox
 

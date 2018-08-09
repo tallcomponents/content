@@ -26,21 +26,21 @@ In addition to the layout options inherited from paragraph, you can set the foll
 
 `TextParagraph.Justification`: If set, the word spacing is increased to fill each line. This is illustrated below.
 
-![default-layout](guide/tallpdf/media/default-layout.png) default layout
+![default-layout](/guide/tallpdf/media/default-layout.png) default layout
 
-![justified-text](guide/tallpdf/media/justified-text.png) justified
-
-`TextParagraph.FirstLineIndentation`: The amount by which the first line only is indented. This is illustrated below.
-
-![first-line-indentation](guide/tallpdf/media/first-line-indentation.png) first-line indentation
+![justified-text](/guide/tallpdf/media/justified-text.png) justified
 
 `TextParagraph.FirstLineIndentation`: The amount by which the first line only is indented. This is illustrated below.
 
-![hanging-indentation](guide/tallpdf/media/hanging-indentation.png) hanging indentation
+![first-line-indentation](/guide/tallpdf/media/first-line-indentation.png) first-line indentation
 
 `TextParagraph.FirstLineIndentation`: The amount by which the first line only is indented. This is illustrated below.
 
-![line-spacing](guide/tallpdf/media/line-spacing.png) line spacing
+![hanging-indentation](/guide/tallpdf/media/hanging-indentation.png) hanging indentation
+
+`TextParagraph.FirstLineIndentation`: The amount by which the first line only is indented. This is illustrated below.
+
+![line-spacing](/guide/tallpdf/media/line-spacing.png) line spacing
 
 ## Preserve White Space
 
@@ -69,7 +69,7 @@ Typical uses of this feature are:
 - List of Figures, Tables, etc.
 - Auto-Numbering Figures, Tables, etc.
 
-![auto-format-a-cross-reference](guide/tallpdf/media/auto-format-a-cross-reference.png) 
+![auto-format-a-cross-reference](/guide/tallpdf/media/auto-format-a-cross-reference.png) 
 
 ## NumberedItem
 
@@ -79,7 +79,7 @@ NumberedItem is a specialization of TextParagraph. You can use numbered items to
 
 NumberedItem has a number of extra layout properties that let you control the position of the number part with respect to the body of the item. The following figures make this clear.
 
-![alignment](guide/tallpdf/media/alignment.png)![layout-options-voor-the-bullet-number-part-of-a-numbered-item](guide/tallpdf/media/layout-options-voor-the-bullet-number-part-of-a-numbered-item.png)
+![alignment](/guide/tallpdf/media/alignment.png)![layout-options-voor-the-bullet-number-part-of-a-numbered-item](/guide/tallpdf/media/layout-options-voor-the-bullet-number-part-of-a-numbered-item.png)
 
 #### Number format
 
@@ -181,4 +181,4 @@ Code sample: Generate multi-level headings
 
 See the figure below for how the generated PDF document looks in Acrobat 8.0.
 
-![result-after-generating-multi-level-headings](guide/tallpdf/media/result-after-generating-multi-level-headings.png)
+![result-after-generating-multi-level-headings](/guide/tallpdf/media/result-after-generating-multi-level-headings.png)

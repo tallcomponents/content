@@ -5,7 +5,7 @@ A table is a specialization of Paragraph. Therefore, all members of paragraph ar
 
 A table consists of one or more rows. A rows consists of one or more cells. A cell may span more than one column. A cell consists of one or more paragraphs. Because a table is a paragraph, it is possible to nest tables.
 
-![paragraph-table-rows-en-cells](guide/tallpdf/media/paragraph-table-rows-en-cells.png)
+![paragraph-table-rows-en-cells](/guide/tallpdf/media/paragraph-table-rows-en-cells.png)
 
 The following code snippet shows how to create a table, including rows, cells and paragraphs.
 
@@ -39,7 +39,7 @@ You can apply both a background and a border to each table, row and cell. A back
 
 The extra space outside a border is set by a left, right, top and bottom margin. The extra space inside a border is set by a left, right, top and bottom padding. These attributes are part of the table, row or cell. The following figure makes this clear.
 
-![table-border-padding-and-margin](guide/tallpdf/media/table-border-padding-and-margin.png)
+![table-border-padding-and-margin](/guide/tallpdf/media/table-border-padding-and-margin.png)
 
 ## Flow Constraints
 

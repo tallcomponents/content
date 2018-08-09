@@ -32,7 +32,7 @@ All shapes inherit directly or indirectly from Shape. It has members that contro
 
 The figure below shows the partial shape class hierarchy. The sub hierarchies of the abstract classes BarcodeShape, PathShape and FieldShape are discussed later.
 
-![partial-shape-class-hierarchy](guide/tallpdf/media/partial-shape-class-hierarchy.png)
+![partial-shape-class-hierarchy](/guide/tallpdf/media/partial-shape-class-hierarchy.png)
 
 Note that because ShapeCollection is a shape as well, it is possible to build a hierarchy of shapes. Especially interesting is that you can inherit a class called, let's say, ChartShape from ShapeCollection. This new class will use other shapes to build a chart and expose convenient properties that are specific to a chart. We call such a specialized shape a Custom Shape. This mechanism allows you to extend TallPDF.NET and build your own custom shape library.
 
@@ -117,7 +117,7 @@ Each ShapeCollection collection, including the top-most, introduces a new coordi
 
 The top-most ShapeCollection collection inherits the Width and Height of the containing Drawing class. Setting the Width and Height of the top-most ShapeCollection collection has no effect.
 
-![nesting-of-shapes](guide/tallpdf/media/nesting-of-shapes.png)
+![nesting-of-shapes](/guide/tallpdf/media/nesting-of-shapes.png)
 
 ## Pens and Brushes
 
@@ -129,7 +129,7 @@ Before we discuss the PathShape and its derived classes, you should understand p
 
 A pen is defined by a width, color, pattern and the cap and join styles. Width and color are obvious. The pattern is an array of integers that specifiy alternating lengths of ink followed by no-ink. The array is applied repeatedly to draw the full length of the line to which the pen is applied. You can also specifiy at which position in the array to start drawing.
 
-![the-pattern-of-a-pen-is-defined-by-a-phase-and-a-dashes-array](guide/tallpdf/media/the-pattern-of-a-pen-is-defined-by-a-phase-and-a-dashes-array.png)
+![the-pattern-of-a-pen-is-defined-by-a-phase-and-a-dashes-array](/guide/tallpdf/media/the-pattern-of-a-pen-is-defined-by-a-phase-and-a-dashes-array.png)
 
 The cap and join styles define how line ends are connected and how open line ends are drawn, respectively.
 
@@ -157,7 +157,7 @@ PathShape allows you to build an arbitrary open or closed shape consisting of li
 
 The figure below shows the PathShape class hierarchy.
 
-![pathshape-class-hierarchy](guide/tallpdf/media/pathshape-class-hierarchy.png)
+![pathshape-class-hierarchy](/guide/tallpdf/media/pathshape-class-hierarchy.png)
 
 #### LineShape
 
@@ -247,7 +247,7 @@ This shape adds an unsigned digital signature field to the generated document.
 
 BarcodeShape is the abstract base of a number of barcode shapes. The class hierarchy is shown in the figure below.
 
-![barcodeshape-class-hierarchy](guide/tallpdf/media/barcodeshape-class-hierarchy.png)
+![barcodeshape-class-hierarchy](/guide/tallpdf/media/barcodeshape-class-hierarchy.png)
 
 ## Docking
 

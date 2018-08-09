@@ -45,10 +45,9 @@ Code sample: Implement font substitution through the FontSubstitutionMap
 
 If you open the PDF document using the Adobe PDF Reader and hit CTRL+D and then go to the Fonts tab, you will see the following fonts listed:
 
-<br /><img alt="Example" src="media/Example.png" /><br />
+![Example](/guide/pdfrasterizer/media/Example.png)
+
 The first argument to the FontSubstitutionMap.Add method call is the name of the font in the PDF document. The second argument is the file name of the font program that should be used to render the font.
-
-
 
 #### Default substitution font
 

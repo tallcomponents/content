@@ -84,7 +84,7 @@ using ( FileStream fileIn = new FileStream(
 
 Figure below shows a typical imposition scenario known as 2-up.
 
-![Typical-imposition-scenario-2-up](guide/pdfkit/media/Typical-imposition-scenario-2-up.png)
+![Typical-imposition-scenario-2-up](/guide/pdfkit/media/Typical-imposition-scenario-2-up.png)
 
 **Typical imposition scenario 2-up**
 

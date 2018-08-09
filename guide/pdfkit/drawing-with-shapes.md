@@ -12,7 +12,7 @@ When you add shapes to Underlay or VisualUnderlay, they appear behind the existi
 
 The distinction between VisualOverlay and Overlay proper lies in the fact that VisualOverlay accounts for any cropping or rotation of the page. The same holds for VisualUnderlay and Underlay. This is shown is the figure below. The bounding box in visual page space is the intersection of the media box and the crop box.
 
-![page-space-versus-visual-page-space](guide/pdfkit/media/page-space-versus-visual-page-space.png)
+![page-space-versus-visual-page-space](/guide/pdfkit/media/page-space-versus-visual-page-space.png)
 
 **Page space versus Visual page space**
 
@@ -20,7 +20,7 @@ The distinction between VisualOverlay and Overlay proper lies in the fact that V
 
 All shapes inherit directly or indirectly from Shape.
 
-![partial-shapes-class-hierarchy](guide/pdfkit/media/partial-shapes-class-hierarchy.png)
+![partial-shapes-class-hierarchy](/guide/pdfkit/media/partial-shapes-class-hierarchy.png)
 
 **Partial shapes class hierarchy**
 
@@ -102,7 +102,7 @@ PathShape is the abstract base class of all shapes that involve stroking and fil
 
 Below is the class hierarchy starting with the PathShape.
 
-![Path Shape-and-derived-classes](guide/pdfkit/media/PathShape-and-derived-classes.png)
+![Path Shape-and-derived-classes](/guide/pdfkit/media/PathShape-and-derived-classes.png)
 
 **PathShape and derived classes**
 
@@ -140,7 +140,7 @@ path.Segments.Add(new FreeHandBezierSegment(250, 200, 300, 550, 400, 400));
 
 The result looks like this:
 
-![sample](guide/pdfkit/media/sample.png)
+![sample](/guide/pdfkit/media/sample.png)
 
 ## Docking
 
@@ -164,7 +164,7 @@ shapes.Add(rect1);
 
 This looks as follows:
 
-![Rectangle Shape 1](guide/pdfkit/media/RectangleShape1.png)
+![Rectangle Shape 1](/guide/pdfkit/media/RectangleShape1.png)
 
 The following code adds a translation:
 
@@ -181,7 +181,7 @@ shapes.Add(rect2);
 
 This looks as follows:
 
-![Rectangle Shape 2](guide/pdfkit/media/RectangleShape2.png)
+![Rectangle Shape 2](/guide/pdfkit/media/RectangleShape2.png)
 
 The following code adds a rotation:
 
@@ -199,7 +199,7 @@ shapes.Add(rect3);
 
 **Code sample: Translate and then rotate a rectangle**
 
-![Rectangle Shape 3](guide/pdfkit/media/RectangleShape3.png)
+![Rectangle Shape 3](/guide/pdfkit/media/RectangleShape3.png)
 
 Note that the rectangle is rotated around the origin of the parent, not around its own origin. If you want to rotate it such that the lower-left corner of the rotated rectangle lies at [30,60], then you would need to inverse the transformation order and use the following code:
 
@@ -217,7 +217,7 @@ shapes.Add(rect4);
 
 **Code sample: Rotate and then translate a rectangle**
 
-![Rectangle Shape 4](guide/pdfkit/media/RectangleShape4.png)
+![Rectangle Shape 4](/guide/pdfkit/media/RectangleShape4.png)
 
 ## Clipping
 
@@ -250,7 +250,7 @@ shapes.Add(image);
 
 It looks as follows:
 
-![Image-clipped-by-Clip Shape](guide/pdfkit/media/Image-clipped-by-ClipShape.png)
+![Image-clipped-by-Clip Shape](/guide/pdfkit/media/Image-clipped-by-ClipShape.png)
 
 ### ShapeCollection.Clip
 

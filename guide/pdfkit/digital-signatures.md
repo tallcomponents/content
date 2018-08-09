@@ -44,7 +44,7 @@ You may wonder why we chose a parameterless method Verify, instead of a more ele
 
 It is possible to change a PDF document, e.g. by filling out fields, and to save the changes incrementally. If the document was signed prior to saving the incremental changes, then the signature field still verifies successfully because the data that has been signed has not changed. The property SignatureField.DocumentModifiedAfterSigning lets you check whether incremental changes have been added to the document as an update.
 
-![save-changes-incrementally-as-an-update](guide/pdfkit/media/save-changes-incrementally-as-an-update.png)
+![save-changes-incrementally-as-an-update](/guide/pdfkit/media/save-changes-incrementally-as-an-update.png)
 
 **Save changes incrementally as an update**
 
@@ -100,20 +100,20 @@ using ( FileStream inFile = new FileStream(
 
 A signature field can have different states. These are shown in the next figures.
 
-![Is Signed==false](guide/pdfkit/media/IsSigned-false.png)
+![Is Signed==false](/guide/pdfkit/media/IsSigned-false.png)
 **IsSigned == false;**
 
-![Is Signed==true, Verify()==false](guide/pdfkit/media/IsSigned-true-Verify-false.png)
+![Is Signed==true, Verify()==false](/guide/pdfkit/media/IsSigned-true-Verify-false.png)
 **IsSigned == true; Verify() == false;**
 
-![Is Signed==true-Verify()==true-Document Modified After Signing==false-not trusted](guide/pdfkit/media/IsSigned-true-Verify-true-DocumentModifiedAfterSigning-false-not-trusted.png)
+![Is Signed==true-Verify()==true-Document Modified After Signing==false-not trusted](/guide/pdfkit/media/IsSigned-true-Verify-true-DocumentModifiedAfterSigning-false-not-trusted.png)
 **IsSigned == true; Verify() == true; DocumentModifiedAfterSigning ==false; not trusted**
 
-![Is Signed==true-Verify()==true-Document Modified After Signing==true-not-trusted](guide/pdfkit/media/IsSigned-true-Verify-true-DocumentModifiedAfterSigning-true-not-trusted.png)
+![Is Signed==true-Verify()==true-Document Modified After Signing==true-not-trusted](/guide/pdfkit/media/IsSigned-true-Verify-true-DocumentModifiedAfterSigning-true-not-trusted.png)
 **IsSigned == true; Verify() == true; DocumentModifiedAfterSigning ==true; not trusted**
 
-![Is Signed==true-Verify()==true-Document Modified After Signing==false-trusted](guide/pdfkit/media/IsSigned-true-Verify-true-DocumentModifiedAfterSigning-false-trusted.png)
+![Is Signed==true-Verify()==true-Document Modified After Signing==false-trusted](/guide/pdfkit/media/IsSigned-true-Verify-true-DocumentModifiedAfterSigning-false-trusted.png)
 **IsSigned == true; Verify() == true; DocumentModifiedAfterSigning ==false; trusted**
 
-![Is Signed==true-Verify()==true-Document Modified After Signing==true-trusted](guide/pdfkit/media/IsSigned-true-Verify-true-DocumentModifiedAfterSigning-true-trusted.png)
+![Is Signed==true-Verify()==true-Document Modified After Signing==true-trusted](/guide/pdfkit/media/IsSigned-true-Verify-true-DocumentModifiedAfterSigning-true-trusted.png)
 **IsSigned == true; Verify() == true; DocumentModifiedAfterSigning ==true; trusted**
