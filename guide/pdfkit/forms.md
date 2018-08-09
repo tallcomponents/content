@@ -1,6 +1,6 @@
 # Forms
 
-PDF documents may includes fields that the user may fill-out. Such PDF documents are referred to as PDF forms. A typical example is an IRS tax form such as the W-4.
+PDF documents that include fillable fields are referred to as PDF forms. A typical example is an IRS tax form such as the W-4.
 
 ![form](/guide/pdfkit/media/form.png)
 
