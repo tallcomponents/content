@@ -6,7 +6,7 @@ PDF documents that include fillable fields are referred to as PDF forms. A typic
 
 ## Fields
 
-A typical PDF form contains multiple fields of different types. E.g. text fields to enter you first and last name, a group of radio buttons to select your marital status and a checkbox to indicate whether you filed the same tax form last year.
+In general, a PDF form has different types of fields. E.g. text fields to enter you first and last name, a group of radio buttons to select your marital status and a checkbox to indicate whether you filed the same tax form last year.
 
 
 The class TallComponents.PDF.Forms.Fields.Field represent a PDF form field. It is an abstract base class that has the following inheritance hierarchy:
