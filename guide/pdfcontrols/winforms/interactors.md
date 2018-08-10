@@ -151,21 +151,22 @@ Please note that unlike WinForms, there is no separate KeyStroke event.
 ### Mouse Moves
 
 While a user is moving the mouse over a viewer the following methods will be invoked.
-&nbsp;<ul><li>
-IsOver(x, y): This method will only be invoked when the mouse pointer is inside the bounds that are given by the Width and the Height of the interactor. IsOver() should return true for each coordinate within this area that is able to process mouse events. No further mouse handling methods will be invoked for any coordinate for which IsOver() returns false. Mouse handling can be turned off entirely for a particular interactor by letting IsOver() return false for the entire area. In other words: IsOver() refines the clickable area of an interactor, and together with OnPaint(), it defines its shape. By default, IsOver(x, y) returns true.</li><li>
-OnMouseEnter(EventArgs): Invoked when the mouse pointer enters the area that is defined by IsOver.</li><li>
-OnMouseLeave(EventArgs): Invoked when the mouse pointer leaves the area that is defined by IsOver().</li><li>
-OnMouseMove(MouseEventArgs): Invoked regularly when the mouse pointer moves over the interactor. The MouseEventArgs can be inspected to determine the exact location of the mouse pointer.</li><li>
-OnMouseHover(EventArgs): Invoked shortly after OnMouseEnter, except when OnMouseLeave has been invoked before that. By default, this is used as a trigger for showing tooltips.</li></ul>
+
+- IsOver(x, y): This method will only be invoked when the mouse pointer is inside the bounds that are given by the Width and the Height of the interactor. IsOver() should return true for each coordinate within this area that is able to process mouse events. No further mouse handling methods will be invoked for any coordinate for which IsOver() returns false. Mouse handling can be turned off entirely for a particular interactor by letting IsOver() return false for the entire area. In other words: IsOver() refines the clickable area of an interactor, and together with OnPaint(), it defines its shape. By default, IsOver(x, y) returns true.
+- OnMouseEnter(EventArgs): Invoked when the mouse pointer enters the area that is defined by IsOver.
+- OnMouseLeave(EventArgs): Invoked when the mouse pointer leaves the area that is defined by IsOver().
+- OnMouseMove(MouseEventArgs): Invoked regularly when the mouse pointer moves over the interactor. The MouseEventArgs can be inspected to determine the exact location of the mouse pointer.
+- OnMouseHover(EventArgs): Invoked shortly after OnMouseEnter, except when OnMouseLeave has been invoked before that. By default, this is used as a trigger for showing tooltips.
 
 ### Mouse Clicks
 
 If a user clicks on an interactor (i.e. on the area defined by IsOver), the following methods are invoked:
-&nbsp;<ul><li>
-OnMouseDown(MouseEvenArgs): Invoked at the moment that the user presses a mouse button. At this point, the mouse button is still down. The default implementation of OnMouseDown() will set the focus to this interactor if the left mouse button was pressed.</li><li>
-OnMouseUp(MouseEventArgs): Invoked at the moment that the user releases a mouse button.</li><li>
-OnMouseClick(MouseEventArgs): Invoked when the user clicks in this interactor. This will happen at the moment that the user releases the mouse button, but only if the mouse button also went down in this interactor. The latter may not be case if the mouse was dragged before releasing. OnMouseClick() will be generated shortly before OnMouseUp().</li><li>
-OnMouseDoubleClick(MouseEventArgs): Invoked when the user double-clicks in this interactor. This will happen at the moment that the user presses the mouse button for the second time. This will only happen if the previous mouse-down and mouse-up also occurred in this interactor (also see OnMouseClick()). OnMouseDoubleClick() will be generated shortly after the second invocation of OnMouseDown().</li></ul>
+
+- OnMouseDown(MouseEvenArgs): Invoked at the moment that the user presses a mouse button. At this point, the mouse button is still down. The default implementation of OnMouseDown() will set the focus to this interactor if the left mouse button was pressed.
+- OnMouseUp(MouseEventArgs): Invoked at the moment that the user releases a mouse button.
+- OnMouseClick(MouseEventArgs): Invoked when the user clicks in this interactor. This will happen at the moment that the user releases the mouse button, but only if the mouse button also went down in this interactor. The latter may not be case if the mouse was dragged before releasing. 
+- OnMouseClick() will be generated shortly before OnMouseUp().
+- OnMouseDoubleClick(MouseEventArgs): Invoked when the user double-clicks in this interactor. This will happen at the moment that the user presses the mouse button for the second time. This will only happen if the previous mouse-down and mouse-up also occurred in this interactor (also see OnMouseClick()). OnMouseDoubleClick() will be generated shortly after the second invocation of OnMouseDown().
 
 ### Dragging
 

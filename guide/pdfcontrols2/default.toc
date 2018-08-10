@@ -8,6 +8,12 @@ selecting-and-dragging-text:guide\pdfcontrols\winforms\selecting-and-dragging-te
 searching-and-highlighting-text:guide\pdfcontrols\winforms\searching-and-highlighting-text.md:Searching and highlighting text
 fonts:guide\pdfcontrols\winforms\fonts.md:Fonts
 interactors:guide\pdfcontrols\winforms\interactors.md:Interactors
+interactor-layers:guide\pdfcontrols\winforms\interactor-layers.md:Interactor layers
+layout-managers:guide\pdfcontrols\winforms\layout-managers.md:Layout managers
+gui-events:guide\pdfcontrols\winforms\gui-events.md:GUI events
+interactor-factories:guide\pdfcontrols\winforms\interactor-factories.md:Interactor factories
+dragging:guide\pdfcontrols\winforms\dragging.md:Dragging
+javascript:guide\pdfcontrols\winforms\javascript.md:JavaScript
 document-structure:guide\pdfkit\document-structure.md:Document structure
 navigation:guide\pdfkit\navigation.md:Navigation
 annotations:guide\pdfkit\annotations.md:Annotations
