@@ -1,4 +1,11 @@
 introduction:guide\pdfcontrols3\net40-wpf\introduction.md:Introduction
+pagesviewer:guide\pdfcontrols3\net40-wpf\pagesviewer.md:Pages viewer
+bookmarksviewer:guide\pdfcontrols3\net40-wpf\bookmarksviewer.md:Bookmarks viewer
+thumbnailsviewer:guide\pdfcontrols3\net40-wpf\thumbnailsviewer.md:Thumbnails viewer
+coordinate-systems:guide\pdfcontrols3\net40-wpf\coordinate-systems.md:Coordinate systems
+viewport:guide\pdfcontrols3\net40-wpf\viewport.md:Viewport
+overlaying-controls:guide\pdfcontrols3\net40-wpf\overlaying-controls.md:Overlaying controls
+interactors:guide\pdfcontrols3\net40-wpf\interactors.md:Interactors
 document-structure:guide\pdfkit\document-structure.md:Document structure
 navigation:guide\pdfkit\navigation.md:Navigation
 annotations:guide\pdfkit\annotations.md:Annotations
