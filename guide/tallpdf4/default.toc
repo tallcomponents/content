@@ -10,7 +10,7 @@ images:guide\tallpdf\images.md:Images
 drawings-and-shapes:guide\tallpdf\drawings-and-shapes.md:Drawings and shapes
 context-fields:guide\tallpdf\context-fields.md:Context fields
 event-driven-generation:guide\tallpdf\event-driven-generation.md:Event-driven generation
-generate-from-xml\guide\tallpdf\generate-from-xml.md:Generate from XML
+generate-from-xml:guide\tallpdf\generate-from-xml.md:Generate from XML
 extend-tallpdf-net:guide\tallpdf\extend-tallpdf-net.md:Extend TallPDF.NET
 actions:guide\tallpdf\actions.md:Actions
 convert-xhtml-to-pdf:guide\tallpdf\convert-xhtml-to-pdf.md:Convert XHTML to PDF
