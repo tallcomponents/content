@@ -14,7 +14,7 @@ Foreground image is similar to previous one. It contains horizontal brown strips
 
 - **Color** ([PDF](/guide/pdfrasterizer4/media/a/comp-rast/BM_Color.pdf))
 
-<table>
+<table style="border-width: 1px; border-style: solid;">
 	<tr>
 		<td>3.0</td>
 		<td>4.0</td>
