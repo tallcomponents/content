@@ -1,2 +1,2 @@
 introduction:guide\pdfrasterizer4\introduction.md:Introduction
-whatsnew:guide\pdfrasterizer4\whatsnew:What's new
+whatsnew:guide\pdfrasterizer4\whatsnew.md:What's new
