@@ -21,7 +21,7 @@ Foreground image is similar to previous one. It contains horizontal brown strips
 		<td>Adobe Reader</td>
 	</tr>
 	<tr>
-		<td><img src="pdfrasterizer4/content/guide/pdfrasterizer4/media/comp-rast/rast3/BM_Color.png"</td>
+		<td><img src="/pdfrasterizer4/content/guide/pdfrasterizer4/media/comp-rast/rast3/BM_Color.png"</td>
 		<td></td>
 		<td></td>
 	</tr>
