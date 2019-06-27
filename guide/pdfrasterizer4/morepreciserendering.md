@@ -12,7 +12,7 @@ Every PDF has two images which overlaps. Image with blue vertical strips with di
 
 Foreground image is similar to previous one. It contains horizontal brown strips with different opacity growing from top to down. Different blending mode are used in next examples.
 
-- **Color** ([PDF](/guide/pdfrasterizer4/medi](/guide/pdfrasterizer4/media/a/comp-rast/BM_Color.pdf))
+- **Color** ([PDF](/guide/pdfrasterizer4/media/a/comp-rast/BM_Color.pdf))
 
 <table>
 	<tr>
@@ -21,7 +21,7 @@ Foreground image is similar to previous one. It contains horizontal brown strips
 		<td>Adobe Reader</td>
 	</tr>
 	<tr>
-		<td><img src="media/comp-rast/rast3/BM_Color.png"</td>
+		<td><img src="pdfrasterizer4/content/guide/pdfrasterizer4/media/comp-rast/rast3/BM_Color.png"</td>
 		<td></td>
 		<td></td>
 	</tr>
