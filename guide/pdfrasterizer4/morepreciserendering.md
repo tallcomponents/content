@@ -31,7 +31,7 @@ Foreground image is similar to previous one. It contains horizontal brown strips
 | :----------: | :----------: | :----------: |
 | ![](/guide/pdfrasterizer4/media/comp-rast/rast3/BM_Color.png) | ![](/guide/pdfrasterizer4/media/comp-rast/rast4/BM_Color.png) | ![](/guide/pdfrasterizer4/media/comp-rast/adobe/BM_Color.png) |
 
-- **Color Burn** ([PDF](/guide/pdfrasterizer4/media/comp-rast/BM_ColorBurn.pdf))
+- **Color Burn** ([PDF](pdfrasterizer4/content/guide/pdfrasterizer4/media/comp-rast/BM_ColorBurn.pdf))
 
 | Rasterizer 3 | Rasterizer 4 | Adobe Reader |
 | :----------: | :----------: | :----------: |
