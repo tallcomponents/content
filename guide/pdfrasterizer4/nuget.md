@@ -9,6 +9,6 @@ Install-Package TallComponents.PDFRasterizer4
 
 IDE's such as Microsoft's Visual Studio .NET and JetBrains' Rider provide a user interface for installing the PDFRasterizer.NET 4.0 NuGet packag.
 
-PDFRasterizer.NET 4.0's page on nuget.org shows all ways to add this package to your project:
+See PDFRasterizer.NET 4.0's page on nuget.org for details and history:
 [https://www.nuget.org/packages/TallComponents.PDFRasterizer4](https://www.nuget.org/packages/TallComponents.PDFRasterizer4/)
 
