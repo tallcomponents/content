@@ -1,1 +1,2 @@
 introduction:guide\pdfrasterizer4\introduction.md:Introduction
+licensing:guide\pdfrasterizer4\licensing.md:Licensing
