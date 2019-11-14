@@ -1,2 +1,3 @@
 introduction:guide\pdfrasterizer4\introduction.md:Introduction
+nuget:guide\pdfrasterizer4\nuget.md:NuGet package
 licensing:guide\pdfrasterizer4\licensing.md:Licensing
