@@ -29,6 +29,7 @@ In unlicensed mode, rendered pages are stamped with an evaluation notice. Extrac
 
 The following restrictions appy to PDFRasterizer.NET 3.0:
 
+- Dynamic XFA documents are not supported
 - Due to GDI+ and XPS restrictions, only the most basic form of transparency is supported
 - Overprint and rendering intents are ignored
 - Function-based shadings (type 1) are not supported
