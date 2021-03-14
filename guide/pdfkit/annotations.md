@@ -32,7 +32,7 @@ Class Annotation has the following members that are common to all annotation typ
 
 ## Widget
 
-As a special case, a widget annotation (or widget) is the visual representation of a field that provides interactive access to the field value. In theory, a field can have multiple widgets. Widgets will be discussed in more detail in <a href="forms">Forms</a>.
+As a special case, a widget annotation (or widget) is the visual representation of a field that provides interactive access to the field value. In theory, a field can have multiple widgets. Widgets will be discussed in more detail in [Forms](forms).
 
 ## Link
 
