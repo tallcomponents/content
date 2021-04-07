@@ -27,7 +27,7 @@ Code sample: Create a new document or open an existing document
 
 ## Pages
 
-The property Pages of class Document allows you to enumerate, remove and insert pages. Chapter <a href="actions">Actions</a> discusses pages in more detail.
+The property Pages of class Document allows you to enumerate, remove and insert pages. Chapter [Actions](actions) discusses pages in more detail.
 
 ## Fields
 
