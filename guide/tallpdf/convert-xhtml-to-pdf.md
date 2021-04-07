@@ -39,14 +39,13 @@ Code sample: Import XHTML in C#
 XhtmlPargraph tries its best to convert any XHTML to PDF. The output may not be identical to that of a major browser. It is recommended to use XhtmlParagraph in a controlled environment where the features used by your XHTML documents can be tested before being used.
 
 
-
 ## XHTML vs HTML
 
 The XhtmlParagraph expects XHTML as opposed to HTML. While XHTML is well-formed XML, HTML generally is not. Common differences are:
-&nbsp;<ul><li>
-All elements must be closed. Use either <b>...</b> or <img... />).</li><li>
-Opening and closing tags must be correctly balanced:<b>bold <i> bolditalic</b>italic</i> should be: <b>bold <i> bolditalic</i></b><i>italic</i></li><li>
-All attribute values have to be enclosed in quotes:<table border=3 width=300> should be <table border="3" width="300"></li></ul>
+
+- All elements must be closed. Use either <b>...</b> or <img... />)
+- Opening and closing tags must be correctly balanced: <b>bold <i> bolditalic</b>italic</i> should be: <b>bold <i> bolditalic</i></b><i>italic</i>
+- All attribute values have to be enclosed in quotes:<table border=3 width=300> should be <table border="3" width="300">
 
 ## Conversion Settings
 
