@@ -185,7 +185,7 @@ An area is a rectangular region on a page. The content of an area consists of a 
 A background area is typically used to add a stationary for a page (company logo, graphical borders), or a watermark. A foreground area can be used for stamping content (Confidential, Draft, etc).
 
 
-The following code sample adds a foreground area that displays ‘Confidential’ across each page. Drawing and shapes are discussed in detail in Chapter <a href="drawings-and-shapes">Drawings and Shapes</a>.
+The following code sample adds a foreground area that displays ‘Confidential’ across each page. Drawing and shapes are discussed in detail in Chapter [Drawings and Shapes](drawings-and-shapes).
 
 
 ```
@@ -237,6 +237,6 @@ Code sample: Stamp ‘Confidential’ on each page using a foreground area in C#
 
 #### CrossreferenceSection
 
-CrossreferenceSection is a class that specializes Section. An instance of this class can be added to the Document.Sections collection just as a normal Section. The CrossreferenceSection lets you generated sections such as a ‘Table of Contents’, a ‘List of Tables’ or ‘List of Figures’. See Section CrossreferenceSection in Chapter <a href="context-fields">Context Fields</a> for more details.
+CrossreferenceSection is a class that specializes Section. An instance of this class can be added to the Document.Sections collection just as a normal Section. The CrossreferenceSection lets you generated sections such as a ‘Table of Contents’, a ‘List of Tables’ or ‘List of Figures’. See Section CrossreferenceSection in Chapter [Context Fields](context-fields) for more details.
 
 
