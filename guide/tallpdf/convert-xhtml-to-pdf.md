@@ -225,8 +225,8 @@ The custom resource loader can be implemented for resources that require authent
 
 
 ## Restrictions
-&nbsp;<ul><li>
-Only a single form per document is supported.</li><li>
-Javascript and Dynamic content (HTML generated through JavaScript, events etc.) are not supported.</li><li>
-Aural features are not supported.</li><li>
-Direction and Unicode-bidi are not supported.</li></ul>&nbsp;
+
+- Only a single form per document is supported
+- Javascript and Dynamic content (HTML generated through JavaScript, events etc.) are not supported
+- Aural features are not supported
+- Direction and Unicode-bidi are not supported
