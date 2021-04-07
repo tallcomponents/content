@@ -43,9 +43,9 @@ XhtmlPargraph tries its best to convert any XHTML to PDF. The output may not be 
 
 The XhtmlParagraph expects XHTML as opposed to HTML. While XHTML is well-formed XML, HTML generally is not. Common differences are:
 
-- All elements must be closed. Use either <b>...</b> or <img... />)
-- Opening and closing tags must be correctly balanced: <b>bold <i> bolditalic</b>italic</i> should be: <b>bold <i> bolditalic</i></b><i>italic</i>
-- All attribute values have to be enclosed in quotes:<table border=3 width=300> should be <table border="3" width="300">
+- All elements must be closed. Use either &lt;b&gt;...&lt;/b&gt; or &lt;img... /&gt;
+- Opening and closing tags must be correctly balanced: &lt;b&gt;bold &lt;i&gt; bolditalic&lt;/b&gt;italic&lt;/i&gt; should be: &lt;b&gt;bold &lt;i&gt; bolditalic&lt;/i&gt;&lt;/b&gt;&lt;i&gt;italic&lt;/i&gt;
+- All attribute values have to be enclosed in quotes: &lt;table border=3 width=300&gt; should be &lt;table border="3" width="300"&gt;
 
 ## Conversion Settings
 
