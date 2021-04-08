@@ -13,7 +13,7 @@ A destination can either be internal or remote. An internal destination is a loc
 The following code snippet adds a link to the first page that points to the third page.
 
 
-```
+``` csharp
 // create the internal destination object:
 InternalDestination destination = new InternalDestination();
 destination.Page = document.Pages[2];
