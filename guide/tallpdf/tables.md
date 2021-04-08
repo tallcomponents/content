@@ -76,12 +76,14 @@ The following cases exist:
 #### Step 2: Preferred Cell Width
 
 In the next step, the preferred width of each cell is determined. The following cases exist:
-&nbsp;<ul><li>
-_Cell.FitToContent property is set_
 
-  The preferred width is so that each paragraph in the Cell.Paragraphs collection fits on a single line. So if the collection contains 3 paragraphs, the preferred width is so that 3 unbroken lines result.</li><li>
-_Otherwise_
-The preferred width equals the PreferredWidth property, unless this is smaller than the minimum width as determined in the previous step.</li></ul>
+- _Cell.FitToContent property is set_
+
+  The preferred width is so that each paragraph in the Cell.Paragraphs collection fits on a single line. So if the collection contains 3 paragraphs, the preferred width is so that 3 unbroken lines result.
+  
+- _Otherwise_
+
+  The preferred width equals the PreferredWidth property, unless this is smaller than the minimum width as determined in the previous step.</li></ul>
 
 #### Step 3: Minimum and Preferred Column Width
 
@@ -92,13 +94,14 @@ In the previous two steps the minimum and preferred width of each individual cel
 Now that each column has a minimum and preferred width, the actual column widths can be determined. This is done as follows.
 
 In most cases the preferred width of each column also becomes the actual width. However, in a number of cases the preferred width can or will not be respected. These are:
-&nbsp;<ul><li>
-_Table width is forced_
 
-If the ForceWidth property of a table is set, then the table overrules the cells. Depending on whether the forced table width is either larger or smaller than the preferred width, the columns need to grow or shrink. These cases are described next in 'Grow Columns' and 'Shrink Columns', respectively.</li><li>
+- _Table width is forced_
+
+  If the ForceWidth property of a table is set, then the table overrules the cells. Depending on whether the forced table width is either larger or smaller than the preferred width, the columns need to grow or shrink. These cases are described next in 'Grow Columns' and 'Shrink Columns', respectively.
+
 _Total preferred width is too large_
 
-If the page width does not allow the preferred column widths, then the columns shrink to the maximum available space as described next in 'Shrink Columns'.</li></ul>
+  If the page width does not allow the preferred column widths, then the columns shrink to the maximum available space as described next in 'Shrink Columns'.
 
 #### either Step 5: Grow Columns ...
 
