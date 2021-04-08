@@ -65,18 +65,13 @@ The minimum cell width has a lower bound equal to the minimum width of the inclu
 
 The following cases exist:
 
-- a
-- b
+- _Cell.Fixed property is set_
 
-&nbsp;<ul><li>
-_Cell.Fixed property is set_
+  The minimum width equals the preferred width of the cell. If the minimum width of the included paragraphs is larger than the preferred value, the minimum width is set to this value.
 
+- _Otherwise_
 
-The minimum width equals the preferred width of the cell. If the minimum width of the included paragraphs is larger than the preferred value, the minimum width is set to this value.</li><li>
-_Otherwise_
-
-
-The minimum width equals the the minumum width of the included paragraphs.</li></ul>
+  The minimum width equals the the minumum width of the included paragraphs.</li></ul>
 
 #### Step 2: Preferred Cell Width
 
@@ -84,9 +79,8 @@ In the next step, the preferred width of each cell is determined. The following 
 &nbsp;<ul><li>
 _Cell.FitToContent property is set_
 
-The preferred width is so that each paragraph in the Cell.Paragraphs collection fits on a single line. So if the collection contains 3 paragraphs, the preferred width is so that 3 unbroken lines result.</li><li>
+  The preferred width is so that each paragraph in the Cell.Paragraphs collection fits on a single line. So if the collection contains 3 paragraphs, the preferred width is so that 3 unbroken lines result.</li><li>
 _Otherwise_
-
 The preferred width equals the PreferredWidth property, unless this is smaller than the minimum width as determined in the previous step.</li></ul>
 
 #### Step 3: Minimum and Preferred Column Width
