@@ -220,7 +220,7 @@ This case applies to the Text property of a Fragment that is part of a Heading. 
 
 ## CrossreferenceSection
 
-The CrossreferenceSection lets you generate sections such as a ‘Table of Contents’, a ‘List of Tables’ or a ‘List of Figures’. The CrossreferenceSection was already introduced shortly in <a href="sections">Sections</a>. Because it relies heavily on the concepts introduced in this Chapter, we will discuss it in more detail now.
+The CrossreferenceSection lets you generate sections such as a ‘Table of Contents’, a ‘List of Tables’ or a ‘List of Figures’. The CrossreferenceSection was already introduced shortly in [Sections](sections). Because it relies heavily on the concepts introduced in this Chapter, we will discuss it in more detail now.
 
 
 The mechanism of the CrossreferenceSection is based on the ComposeEntry event. This event is fired for each paragraph in the document. The event handler decides whether and how an entry has to be added to the CrossreferenceSection. E.g. if you want to generate a table of contents, then you would ignore all paragraphs that are not of type Heading.

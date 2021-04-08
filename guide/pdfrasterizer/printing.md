@@ -143,7 +143,7 @@ void autoPosition( Graphics graphics, double printerWidth,
 
 ## Control font substitution
 
-Font substitution is discussed in detail in <a href="text-and-fonts">Text and Fonts</a>.
+Font substitution is discussed in detail in [Text and Fonts](text-and-fonts).
 
 
 

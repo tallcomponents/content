@@ -68,7 +68,7 @@ Given the specialized class H1, you can now use it in XML as follows:
 Code sample: Use specialized class in XML
 
 
-Note that the content of the text node is assigned to the Text property of H1. See also Section _Text Properties_ in Chapter <a href="generate-pdf-from-xml">Generate PDF from XML</a>.
+Note that the content of the text node is assigned to the Text property of H1. See also Section _Text Properties_ in Chapter [Generate PDF from XML](generate-pdf-from-xml).
 
 
 **NOTE**: It is necessary to force the CLR to load the assembly that defines H1 before you do the conversion. Otherwise, the CLR will not be able to create a new instance of your custom type through the .NET reflection mechanisms. You can do this by referring a type inside this assembly or by loading the assembly explicitly by calling Assembly.LoadFrom("path to my assembly.dll" ).

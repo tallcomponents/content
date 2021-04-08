@@ -6,7 +6,7 @@ Paragraph specializations are Drawing, Image, Table, HorizontalLine, ParagraphCo
 
 ![paragraph-class-hierarchy](/guide/tallpdf/media/paragraph-class-hierarchy.png)
 
-The content inside Section, Area and Cell (Defined in Chapter <a href="tables">Tables</a>) objects is defined as a collection of Paragraph objects. Paragraph is an abstract class from which a number of paragraphs derive. This Chapter discusses the commonality of all these classes. The following chapters discuss specific paragraphs such as TextParagraph, Image, Table and Drawing in more detail.
+The content inside Section, Area and Cell (Defined in Chapter [Tables](tables)) objects is defined as a collection of Paragraph objects. Paragraph is an abstract class from which a number of paragraphs derive. This Chapter discusses the commonality of all these classes. The following chapters discuss specific paragraphs such as TextParagraph, Image, Table and Drawing in more detail.
 
 The following code samples show how to instantiate different paragraph objects and add them to a section.
 

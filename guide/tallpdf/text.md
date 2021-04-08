@@ -85,7 +85,7 @@ NumberedItem has a number of extra layout properties that let you control the po
 
 Each numbered item is assigned one or more numbers. An item at level 0 is assigned a single number, an item at level 1 is assigned 2 numbers, etc. The render engine maintains a counter for each level and increments this counter after each assignment. When a counter is incremented, all counters at higher levels are automatically reset. Counters are 1-based. An item may reset the counter of its own level by setting its RestartNumbering property.
 
-A fragment may include these numbers in its number fragment by using context fields (see Chapter <a href="context-fields">Context Fields</a> for more details). The following shows a typical item list with two levels. The table that follows shows examples of how the bold-faced item may be formatted and resolved.
+A fragment may include these numbers in its number fragment by using context fields (see Chapter [Context Fields](context-fields) for more details). The following shows a typical item list with two levels. The table that follows shows examples of how the bold-faced item may be formatted and resolved.
 &nbsp;<ul><li>
 first item at level 0</li><li>
 second item at level 0

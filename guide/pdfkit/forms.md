@@ -44,7 +44,7 @@ As said, a field is associated with one or more widgets. The following table sho
 	<tr><td>DateTimeField, DropDownListField, ImageField, ListBoxField, NumericField, PasswordField, TextField, Code128BarcodeField, Code2of5InterleavedBarcodeField, Code3of9BarcodeField</td><td>Widget</td><td>These fields are all visually represented by the same Widget class.</td></tr>
 </table>
 
-All widget types have a common base class Widget. Widget in turn inherits from Annotation, see <a href="annotations">Annotations</a>. The table below lists the members that are specific to Widget annotations.
+All widget types have a common base class Widget. Widget in turn inherits from Annotation, see [Annotations](annotations). The table below lists the members that are specific to Widget annotations.
 
 ### Public Widget members
 

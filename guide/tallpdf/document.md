@@ -45,8 +45,7 @@ Code sample: Create a new document, add content (omitted) and save it to disk in
 
 #### Write Overloads
 
-Document.Write has a number of overloads. Depending on what overload you use, the PDF document is generated in either pull or push mode. This is explained in more detail in <a href="event-driven-generation">Event-Driven Generation</a>
-
+Document.Write has a number of overloads. Depending on what overload you use, the PDF document is generated in either pull or push mode. This is explained in more detail in [Event-Driven Generation](event-driven-generation).
 
 
 ## DocumentInfo
@@ -158,7 +157,7 @@ OpenActions: This sequence of actions will be executed by the PDF reader during 
 **Note**that these actions are not executed by TallPDF.NET. They are only associated with events and the actions are executed by the PDF reader application when the corresponding event occurs.
 
 
-The following code sample generates a PDF document so that a text field is filled with the current date just before it is printed. This way, you can always see on the print out when it was printed. (How to add fields to a PDF document is discussed in Section Field Shapes in Chapter <a href="drawings-and-shapes">Drawings and Shapes</a>.)
+The following code sample generates a PDF document so that a text field is filled with the current date just before it is printed. This way, you can always see on the print out when it was printed. How to add fields to a PDF document is discussed in Section Field Shapes in Chapter [Drawings and Shapes](drawings-and-shapes).
 
 
 ```

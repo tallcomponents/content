@@ -1,13 +1,11 @@
 # Developer guide
 
-This developer guide helps you understand the PDFControls.NET 2 class library. It walks through the main concepts and illustrates them with code samples. This guide is not a type reference. This is included in the <a href="http://www.tallcomponents.com/pdfcontrols" title="Optional alternate text">evaluation download</a>.
-
+This developer guide helps you understand the PDFControls.NET 2 class library. It walks through the main concepts and illustrates them with code samples.  
 
 
 ## Features
 
 PDFControls.NET is a .NET class library that allows you to create a GUI application that handles PDF files. It consists of a single assembly that can be xcopy-deployed. It has no dependencies other than the .NET framework. Central to PDFControls.NET is a consistent and highly intuitive object model consisting of classes like Document, Page, Shape, Viewers, Layout Managers, etc. The focus of the development team is always to ease the task of integrating our class library in a larger application.
-
 
 
 ## Standard versus Professional
@@ -54,11 +52,11 @@ LiveCycle Designer 8.1 and 82 ES support (static files only)</li></ul>
 
 ## Structure of this guide
 
-This guide has been divided into several parts. Chapter <a href="interactors">Interactors</a> and <a href="getting-started">Getting started</a> consist of a general introduction, which is followed by three parts:
+This guide has been divided into several parts. Chapter [Interactors](interactors) and [Getting started](getting-started) consist of a general introduction, which is followed by three parts:
 &nbsp;<ol><li>
-Chapters <a href="viewing">Viewing</a> to <a href="javascript">JavaScript</a> discuss GUI programming. Chapters <a href="viewing">Viewing</a> through <a href="fonts">Fonts</a> discuss concepts that are applicable to both the standard as well as the professional edition. Chapters <a href="fonts">Fonts</a> through <a href="javascript">JavaScript</a> are only relevant for the professional edition.</li><li>
-Chapters <a href="document-structure">Document structure</a> to <a href="extract-graphics">Extract graphics</a> discuss the PDF object model that the professional edition provides. These chapters are not relevant for the standard edition, except perhaps for chapter <a href="document-structure">Document structure</a> as this gives an overview of the PDF document structure.</li><li>
-Chapters <a href="upgrading-from-version-1-to-2">Upgrading from version 1 to 2</a> to <a href="upgrading-from-standard-to-professional">Upgrading from Standard to Professional</a> provide information about upgrading from PDFReaderControls 1 to PDFControls 2. In order to accommodate new features and to fix inconsistencies in the API, we have introduced a number of breaking changes.</li></ol>
+Chapters [Viewing](viewing) to [JavaScript](javascript) discuss GUI programming. Chapters [Viewing](viewing) through [Fonts](fonts) discuss concepts that are applicable to both the standard as well as the professional edition. Chapters [Fonts](fonts) through [JavaScript](javascript) are only relevant for the professional edition.</li><li>
+Chapters [Document structure](document-structure) to [Extract graphics](extract-graphics) discuss the PDF object model that the professional edition provides. These chapters are not relevant for the standard edition, except perhaps for chapter [Document structure](document-structure) as this gives an overview of the PDF document structure.</li><li>
+Chapters [Upgrading from version 1 to 2](upgrading-from-version-1-to-2) to [Upgrading from Standard to Professional](upgrading-from-standard-to-professional) provide information about upgrading from PDFReaderControls 1 to PDFControls 2. In order to accommodate new features and to fix inconsistencies in the API, we have introduced a number of breaking changes.</li></ol>
 
 ## Please send us Feedback!
 

@@ -3,7 +3,7 @@
 The appearance of a fragment of text in a PDF document is defined by its font. The PDF format allows embedding the entire or partial font program so that the appearance can always be reproduced on any machine independent of what fonts are installed on the client machine. It is however also possible to omit the font program. In this case, it is up to the PDF consumer to decide how to render the text. In general this is done by selecting its own font that matches the parameters (most importantly the name) of the referenced font. This process is called font substitution. PDFRasterizer.NET 3.1 has its own default substitution scheme but it also allows you to hook into this process.
 
 
-Central to controlling the rendering of text is the <a href="T_TallComponents_PDF_Rasterizer_Configuration_TextRenderSettings">TextRenderSettings</a> class which can be accessed through the <a href="P_TallComponents_PDF_Rasterizer_Configuration_RenderSettings_TextSettings">RenderSettings.TextSettings</a> property.
+Central to controlling the rendering of text is the `TextRenderSettings` class which can be accessed through the `RenderSettings.TextSettings` property.
 
 
 
