@@ -6,7 +6,7 @@ The top-level structure of a PDF document is shown below.
 
 You can either open an existing document or create a new document as shown in the following code sample:
 
-```
+``` csharp
 using System;
 using System.IO;
 using TallComponents.PDF;
