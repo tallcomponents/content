@@ -31,15 +31,15 @@ The property Pages of class Document allows you to enumerate, remove and insert 
 
 ## Fields
 
-The property Fields of class Document allows you to enumerate, remove and insert form fields. Fields are discussed in more detail in <a href="forms">Forms</a>.
+The property Fields of class Document allows you to enumerate, remove and insert form fields. Fields are discussed in more detail in [Forms](forms).
 
 ## Bookmarks
 
-A PDF document has a bookmarks tree which is also known as the document outline or table of contents. The top-level bookmarks can be accessed through the Document.Bookmarks property. From here you can enumerate the entire tree. You can also add, insert and remove bookmarks and modify bookmark properties. Bookmarks are discussed in more detail in <a href="navigation">Navigation</a>.
+A PDF document has a bookmarks tree which is also known as the document outline or table of contents. The top-level bookmarks can be accessed through the Document.Bookmarks property. From here you can enumerate the entire tree. You can also add, insert and remove bookmarks and modify bookmark properties. Bookmarks are discussed in more detail in [Navigation](navigation).
 
 ## Viewer Preferences
 
-The viewer preferences define how a PDF reader should display a PDF document initially. Viewer preferences are discussed in more detail in <a href="navigation">Navigation</a>.
+The viewer preferences define how a PDF reader should display a PDF document initially. Viewer preferences are discussed in more detail in [Navigation](navigation).
 
 ## JavaScript
 
