@@ -99,7 +99,7 @@ In most cases the preferred width of each column also becomes the actual width. 
 
   If the ForceWidth property of a table is set, then the table overrules the cells. Depending on whether the forced table width is either larger or smaller than the preferred width, the columns need to grow or shrink. These cases are described next in 'Grow Columns' and 'Shrink Columns', respectively.
 
-_Total preferred width is too large_
+- _Total preferred width is too large_
 
   If the page width does not allow the preferred column widths, then the columns shrink to the maximum available space as described next in 'Shrink Columns'.
 
