@@ -64,7 +64,7 @@ You can also specify different types of destination, like links to external docu
 
 Typical uses of this feature are:
 
-- Cross-references<
+- Cross-references
 - Table of Content Entries
 - List of Figures, Tables, etc.
 - Auto-Numbering Figures, Tables, etc.
