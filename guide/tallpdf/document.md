@@ -26,7 +26,7 @@ using ( FileStream file = new FileStream(
 Code sample: Create a new document, add content (omitted) and save it to disk in C#
 
 
-```
+``` vb
 ' create a document
 Dim doc As New Document
 
