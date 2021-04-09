@@ -9,7 +9,7 @@ The Document class is the top-level class of the TallPDF.NET object model.
 A typical PDF generation scenario consists of the following basis steps: 1. instantiate a Document; 2. add content and configure document settings; 3. save the document to any stream (typically disk, memory or HTTP response). This is shown in the following code snippets:
 
 
-```
+``` csharp
 // create document
 Document doc = new Document();
 
