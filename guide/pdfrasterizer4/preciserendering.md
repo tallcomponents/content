@@ -25,9 +25,9 @@ In the following example, a light blue colored rectangle is rendered in the back
 	</tr>
 </table>
 
-The following examples show all blending modes. Each PDF has two images which overlaps. Image with blue vertical strips with different opacity is rendered in the background. 
+The following examples show all blending modes. Each PDF has two images that overlap. Image with blue vertical strips with different opacity is rendered in the background. 
 Most left strip is fully transparent most right strip is opaque. Rest strips are semitransparent with growing opacity from left to right.
-Foreground image is similar to previous one. It contains horizontal brown strips with different opacity growing from top to down. T
+Foreground image is similar to previous one. It contains horizontal brown strips with different opacity growing from top to down.
 
 ### Color ([PDF](/guide/pdfrasterizer4/media/a/comp-rast/BM_Color.pdf))
 
