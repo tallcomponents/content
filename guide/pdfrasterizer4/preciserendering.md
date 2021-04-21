@@ -16,14 +16,14 @@ Foreground image is similar to previous one. It contains horizontal brown strips
 
 <table>
 	<tr>
-		<td style="border-width: 1px; border-style: solid;">3.0</td>
-		<td style="border-width: 1px; border-style: solid;">4.0</td>
-		<td style="border-width: 1px; border-style: solid;">Adobe Reader</td>
+		<td style="border-width:0;">3.0</td>
+		<td style="border-width:0;">4.0</td>
+		<td style="border-width:0;">Adobe Reader</td>
 	</tr>
 	<tr>
-		<td style="border-width: 1px; border-style: solid;"><img src="https://raw.githubusercontent.com/tallcomponents/content/master/guide/pdfrasterizer4/media/comp-rast/rast3/BM_Color.png"/></td>
-		<td style="border-width: 1px; border-style: solid;"><img src="https://raw.githubusercontent.com/tallcomponents/content/master/guide/pdfrasterizer4/media/comp-rast/rast4/BM_Color.png"/></td>
-		<td style="border-width: 1px; border-style: solid;"><img src="https://raw.githubusercontent.com/tallcomponents/content/master/guide/pdfrasterizer4/media/comp-rast/adobe/BM_Color.png"/></td>
+		<td style="border-width:0;"><img src="https://raw.githubusercontent.com/tallcomponents/content/master/guide/pdfrasterizer4/media/comp-rast/rast3/BM_Color.png"/></td>
+		<td style="border-width:0;"><img src="https://raw.githubusercontent.com/tallcomponents/content/master/guide/pdfrasterizer4/media/comp-rast/rast4/BM_Color.png"/></td>
+		<td style="border-width:0;"><img src="https://raw.githubusercontent.com/tallcomponents/content/master/guide/pdfrasterizer4/media/comp-rast/adobe/BM_Color.png"/></td>
 	</tr>
 </table>
 
