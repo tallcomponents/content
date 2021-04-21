@@ -12,7 +12,7 @@ Every PDF has two images which overlaps. Image with blue vertical strips with di
 
 Foreground image is similar to previous one. It contains horizontal brown strips with different opacity growing from top to down. Different blending mode are used in next examples.
 
-- **Color** ([PDF](/guide/pdfrasterizer4/media/a/comp-rast/BM_Color.pdf))
+### Color ([PDF](/guide/pdfrasterizer4/media/a/comp-rast/BM_Color.pdf))
 
 <table>
 	<tr>
@@ -27,7 +27,7 @@ Foreground image is similar to previous one. It contains horizontal brown strips
 	</tr>
 </table>
 
-- **Color Burn** ([PDF](pdfrasterizer4/content/guide/pdfrasterizer4/media/comp-rast/BM_ColorBurn.pdf))
+### Color Burn ([PDF](pdfrasterizer4/content/guide/pdfrasterizer4/media/comp-rast/BM_ColorBurn.pdf))
 
 <table>
 	<tr>
@@ -42,7 +42,7 @@ Foreground image is similar to previous one. It contains horizontal brown strips
 	</tr>
 </table>
 
-- **Color Dodge** ([PDF](/guide/pdfrasterizer4/media/comp-rast/BM_ColorDodge.pdf))
+### Color Dodge ([PDF](/guide/pdfrasterizer4/media/comp-rast/BM_ColorDodge.pdf))
 
 <table>
 	<tr>
@@ -57,7 +57,7 @@ Foreground image is similar to previous one. It contains horizontal brown strips
 	</tr>
 </table>
 
-- **Darken** ([PDF](/guide/pdfrasterizer4/media/comp-rast/BM_Darken.pdf))
+### Darken ([PDF](/guide/pdfrasterizer4/media/comp-rast/BM_Darken.pdf))
 
 <table>
 	<tr>
@@ -72,7 +72,7 @@ Foreground image is similar to previous one. It contains horizontal brown strips
 	</tr>
 </table>
 
-- **Difference** ([PDF](/guide/pdfrasterizer4/media/comp-rast/BM_Difference.pdf))
+### Difference ([PDF](/guide/pdfrasterizer4/media/comp-rast/BM_Difference.pdf))
 
 <table>
 	<tr>
@@ -87,7 +87,7 @@ Foreground image is similar to previous one. It contains horizontal brown strips
 	</tr>
 </table>
 
-- **Exclusion** ([PDF](/guide/pdfrasterizer4/media/comp-rast/BM_Exclusion.pdf))
+### Exclusion ([PDF](/guide/pdfrasterizer4/media/comp-rast/BM_Exclusion.pdf))
 
 <table>
 	<tr>
@@ -102,7 +102,7 @@ Foreground image is similar to previous one. It contains horizontal brown strips
 	</tr>
 </table>
 
-- **Hard Light** ([PDF](/guide/pdfrasterizer4/media/comp-rast/BM_HardLight.pdf))
+### Hard Light ([PDF](/guide/pdfrasterizer4/media/comp-rast/BM_HardLight.pdf))
 
 <table>
 	<tr>
