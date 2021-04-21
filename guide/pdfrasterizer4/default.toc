@@ -1,4 +1,3 @@
 introduction:guide\pdfrasterizer4\introduction.md:Introduction
-whatsnew:guide\pdfrasterizer4\whatsnew.md:What's new
-preciserendering:guide\pdfrasterizer4\preciserendering.md:Precise rendering
+ preciserendering:guide\pdfrasterizer4\preciserendering.md:Precise rendering
 

@@ -271,9 +271,9 @@ Foreground image is similar to previous one. It contains horizontal brown strips
 
 ## Image rendering quality
 
-These examples show differences in image's quality rendering.
+The following examples show differences in image render quality.
 
-- **Enlarged small image** ([PDF](/guide/pdfrasterizer4/media/comp-rast/Image_enlarge.pdf))
+### Enlarged small image ([PDF](/guide/pdfrasterizer4/media/comp-rast/Image_enlarge.pdf))
 
 This is example shows how small image is rendered on the page when it is enlarged. This PDF has image of the size 2x2 pixels (read, blue, green and white squares).
 
@@ -281,7 +281,7 @@ This is example shows how small image is rendered on the page when it is enlarge
 | :----------: | :----------: | :----------: |
 | ![](/guide/pdfrasterizer4/media/comp-rast/rast3/Image_enlarge.png) | ![](/guide/pdfrasterizer4/media/comp-rast/rast4/Image_enlarge.png) | ![](/guide/pdfrasterizer4/media/comp-rast/adobe/Image_enlarge.png) |
 
-- **Image sharpness** ([PDF](/guide/pdfrasterizer4/media/comp-rast/Image_rgb.pdf))
+### Image sharpness ([PDF](/guide/pdfrasterizer4/media/comp-rast/Image_rgb.pdf))
 
 | | |
 | :----------: | :--: |
@@ -289,7 +289,7 @@ This is example shows how small image is rendered on the page when it is enlarge
 | Rasterizer 4 | ![](/guide/pdfrasterizer4/media/comp-rast/rast4/Image_rgb.png) |
 | Adobe Reader | ![](/guide/pdfrasterizer4/media/comp-rast/adobe/Image_rgb.png) |
 
-- **1 bpc rgb image** ([PDF](/guide/pdfrasterizer4/media/comp-rast/Image_rgb_1bpc.pdf))
+### 1 bpc rgb image ([PDF](/guide/pdfrasterizer4/media/comp-rast/Image_rgb_1bpc.pdf))
 
 When the 1 bpc (bits per component) image is renderd too small, Rasterizer4 renders in much better quality (look at small images of the butterfly).
 
@@ -299,7 +299,7 @@ When the 1 bpc (bits per component) image is renderd too small, Rasterizer4 rend
 | Rasterizer 4 | ![](/guide/pdfrasterizer4/media/comp-rast/rast4/Image_rgb_1bpc.png) |
 | Adobe Reader | ![](/guide/pdfrasterizer4/media/comp-rast/adobe/Image_rgb_1bpc.png) |
 
-- **16 bpc Lab Color space** ([PDF](/guide/pdfrasterizer4/media/comp-rast/Image_Lab16b_jpx.pdf))
+### 16 bpc Lab Color space ([PDF](/guide/pdfrasterizer4/media/comp-rast/Image_Lab16b_jpx.pdf))
 
 Correctly decoded image with 16 bpc in Lab color space from JPX stream.
 
@@ -309,7 +309,7 @@ Correctly decoded image with 16 bpc in Lab color space from JPX stream.
 | Rasterizer 4 | ![](/guide/pdfrasterizer4/media/comp-rast/rast4/Image_Lab16b_jpx.png) |
 | Adobe Reader | ![](/guide/pdfrasterizer4/media/comp-rast/adobe/Image_Lab16b_jpx.png) |
 
-- **Image's soft mask** ([PDF](/guide/pdfrasterizer4/media/comp-rast/Image_skew_smask_decode.pdf))
+### Image's soft mask ([PDF](/guide/pdfrasterizer4/media/comp-rast/Image_skew_smask_decode.pdf))
 
 Decode parameters in the image's soft mask are accepted. It is possible to see soft mask is semitransparent.
 
@@ -319,7 +319,7 @@ Decode parameters in the image's soft mask are accepted. It is possible to see s
 | Rasterizer 4 | ![](/guide/pdfrasterizer4/media/comp-rast/rast4/Image_skew_smask_decode.png) |
 | Adobe Reader | ![](/guide/pdfrasterizer4/media/comp-rast/adobe/Image_skew_smask_decode.png) |
 
-- **Image's soft mask matte color blending** ([PDF](/guide/pdfrasterizer4/media/comp-rast/Image_smask_Matte.pdf))
+### Image's soft mask matte color blending ([PDF](/guide/pdfrasterizer4/media/comp-rast/Image_smask_Matte.pdf))
 
 Images's soft mask can have defined matte color which has to be used by rendered to blend soft mask before it's using for masking.
 
