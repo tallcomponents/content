@@ -16,9 +16,9 @@ Foreground image is similar to previous one. It contains horizontal brown strips
 
 <table>
 	<tr>
-		<td style="border-width:0;">3.0</td>
-		<td style="border-width:0;">4.0</td>
-		<td style="border-width:0;">Adobe Reader</td>
+		<td style="border-width:0;text-align:center;">3.0</td>
+		<td style="border-width:0;text-align:center;">4.0</td>
+		<td style="border-width:0;text-align:center;">Adobe Reader</td>
 	</tr>
 	<tr>
 		<td style="border-width:0;"><img src="https://raw.githubusercontent.com/tallcomponents/content/master/guide/pdfrasterizer4/media/comp-rast/rast3/BM_Color.png"/></td>
