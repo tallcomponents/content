@@ -21,9 +21,9 @@ Foreground image is similar to previous one. It contains horizontal brown strips
 		<td style="border-width: 1px; border-style: solid;">Adobe Reader</td>
 	</tr>
 	<tr>
-		<td style="border-width: 1px; border-style: solid;"><img src="/pdfrasterizer4/content/guide/pdfrasterizer4/media/comp-rast/rast3/BM_Color.png"</td>
-		<td style="border-width: 1px; border-style: solid;"></td>
-		<td style="border-width: 1px; border-style: solid;"></td>
+		<td style="border-width: 1px; border-style: solid;"><img src="https://github.com/tallcomponents/content/blob/master/guide/pdfrasterizer4/media/comp-rast/rast3/BM_Color.png"/></td>
+		<td style="border-width: 1px; border-style: solid;"><img src="https://github.com/tallcomponents/content/blob/master/guide/pdfrasterizer4/media/comp-rast/rast4/BM_Color.png"/></td>
+		<td style="border-width: 1px; border-style: solid;"><img src="https://github.com/tallcomponents/content/blob/master/guide/pdfrasterizer4/media/comp-rast/adobe/BM_Color.png"/></td>
 	</tr>
 </table>
 
