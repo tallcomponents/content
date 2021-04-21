@@ -6,11 +6,28 @@ The following compares the rendering of PDFRasterizer.NET 3.0, 4.0 and Adobe PDF
 
 ## Blending modes
 
-Pdfrasterizer4 has implemented all blending modes in contrast with Pdfrasterizer3. It is possible to see differences in rendering on the next examples.
+PDFRasterizer.NET 4.0 has implemented all blending modes in contrast with version 3.0. It is possible to see differences in rendering on the next examples.
 
-Every PDF has two images which overlaps. Image with blue vertical strips with different opacity is rendered in the background. Most left strip is fully transparent most right strip is opaque. Rest strips are semitransparent with growing opacity from left to right.
+### Luminosity blending mode ([PDF](/guide/pdfrasterizer4/media/comp-rast/Blending.pdf))
 
-Foreground image is similar to previous one. It contains horizontal brown strips with different opacity growing from top to down. Different blending mode are used in next examples.
+In the following example, a light blue colored rectangle is rendered in the background, an image partially overlaps this rectangle and luminosity blending mode is used for rendering image.
+
+<table>
+	<tr>
+		<td style="border-width:0;text-align:center;">3.0</td>
+		<td style="border-width:0;text-align:center;">4.0</td>
+		<td style="border-width:0;text-align:center;">Adobe Reader</td>
+	</tr>
+	<tr>
+		<td style="border-width:0;"><img src="https://raw.githubusercontent.com/tallcomponents/content/master/guide/pdfrasterizer4/media/comp-rast/rast3/Blending.png"/></td>
+		<td style="border-width:0;"><img src="https://raw.githubusercontent.com/tallcomponents/content/master/guide/pdfrasterizer4/media/comp-rast/rast4/Blending.png"/></td>
+		<td style="border-width:0;"><img src="https://raw.githubusercontent.com/tallcomponents/content/master/guide/pdfrasterizer4/media/comp-rast/adobe/Blending.png"/></td>
+	</tr>
+</table>
+
+The following examples show all blending modes. Each PDF has two images which overlaps. Image with blue vertical strips with different opacity is rendered in the background. 
+Most left strip is fully transparent most right strip is opaque. Rest strips are semitransparent with growing opacity from left to right.
+Foreground image is similar to previous one. It contains horizontal brown strips with different opacity growing from top to down. T
 
 ### Color ([PDF](/guide/pdfrasterizer4/media/a/comp-rast/BM_Color.pdf))
 
@@ -249,23 +266,6 @@ Foreground image is similar to previous one. It contains horizontal brown strips
 		<td style="border-width:0;"><img src="https://raw.githubusercontent.com/tallcomponents/content/master/guide/pdfrasterizer4/media/comp-rast/rast3/BM_SoftLight.png"/></td>
 		<td style="border-width:0;"><img src="https://raw.githubusercontent.com/tallcomponents/content/master/guide/pdfrasterizer4/media/comp-rast/rast4/BM_SoftLight.png"/></td>
 		<td style="border-width:0;"><img src="https://raw.githubusercontent.com/tallcomponents/content/master/guide/pdfrasterizer4/media/comp-rast/adobe/BM_SoftLight.png"/></td>
-	</tr>
-</table>
-
-### More useful example of luminosity blending mode ([PDF](/guide/pdfrasterizer4/media/comp-rast/Blending.pdf))
-
-Light blue colored rectangle is rendered in the background. Image partially overlaps this rectangle. Luminosity blending mode is used for rendering image.
-
-<table>
-	<tr>
-		<td style="border-width:0;text-align:center;">3.0</td>
-		<td style="border-width:0;text-align:center;">4.0</td>
-		<td style="border-width:0;text-align:center;">Adobe Reader</td>
-	</tr>
-	<tr>
-		<td style="border-width:0;"><img src="https://raw.githubusercontent.com/tallcomponents/content/master/guide/pdfrasterizer4/media/comp-rast/rast3/Blending.png"/></td>
-		<td style="border-width:0;"><img src="https://raw.githubusercontent.com/tallcomponents/content/master/guide/pdfrasterizer4/media/comp-rast/rast4/Blending.png"/></td>
-		<td style="border-width:0;"><img src="https://raw.githubusercontent.com/tallcomponents/content/master/guide/pdfrasterizer4/media/comp-rast/adobe/Blending.png"/></td>
 	</tr>
 </table>
 
