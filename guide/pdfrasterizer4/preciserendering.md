@@ -117,68 +117,157 @@ Foreground image is similar to previous one. It contains horizontal brown strips
 	</tr>
 </table>
 
-** ([PDF](/guide/pdfrasterizer4/media/comp-rast/BM_Hue.pdf))
+### Hue ([PDF](/guide/pdfrasterizer4/media/comp-rast/BM_Hue.pdf))
 
-| Rasterizer 3 | Rasterizer 4 | Adobe Reader |
-| :----------: | :----------: | :----------: |
-| ![](/guide/pdfrasterizer4/media/comp-rast/rast3/BM_Hue.png) | ![](/guide/pdfrasterizer4/media/comp-rast/rast4/BM_Hue.png) | ![](/guide/pdfrasterizer4/media/comp-rast/adobe/BM_Hue.png) |
+<table>
+	<tr>
+		<td style="border-width:0;text-align:center;">3.0</td>
+		<td style="border-width:0;text-align:center;">4.0</td>
+		<td style="border-width:0;text-align:center;">Adobe Reader</td>
+	</tr>
+	<tr>
+		<td style="border-width:0;"><img src="https://raw.githubusercontent.com/tallcomponents/content/master/guide/pdfrasterizer4/media/comp-rast/rast3/BM_Hue.png"/></td>
+		<td style="border-width:0;"><img src="https://raw.githubusercontent.com/tallcomponents/content/master/guide/pdfrasterizer4/media/comp-rast/rast4/BM_Hue.png"/></td>
+		<td style="border-width:0;"><img src="https://raw.githubusercontent.com/tallcomponents/content/master/guide/pdfrasterizer4/media/comp-rast/adobe/BM_Hue.png"/></td>
+	</tr>
+</table>
 
-- **Lighten** ([PDF](/guide/pdfrasterizer4/media/comp-rast/BM_Lighten.pdf))
+### Lighten ([PDF](/guide/pdfrasterizer4/media/comp-rast/BM_Lighten.pdf))
 
-| Rasterizer 3 | Rasterizer 4 | Adobe Reader |
-| :----------: | :----------: | :----------: |
-| ![](/guide/pdfrasterizer4/media/comp-rast/rast3/BM_Lighten.png) | ![](/guide/pdfrasterizer4/media/comp-rast/rast4/BM_Lighten.png) | ![](/guide/pdfrasterizer4/media/comp-rast/adobe/BM_Lighten.png) |
+<table>
+	<tr>
+		<td style="border-width:0;text-align:center;">3.0</td>
+		<td style="border-width:0;text-align:center;">4.0</td>
+		<td style="border-width:0;text-align:center;">Adobe Reader</td>
+	</tr>
+	<tr>
+		<td style="border-width:0;"><img src="https://raw.githubusercontent.com/tallcomponents/content/master/guide/pdfrasterizer4/media/comp-rast/rast3/BM_Lighten.png"/></td>
+		<td style="border-width:0;"><img src="https://raw.githubusercontent.com/tallcomponents/content/master/guide/pdfrasterizer4/media/comp-rast/rast4/BM_Lighten.png"/></td>
+		<td style="border-width:0;"><img src="https://raw.githubusercontent.com/tallcomponents/content/master/guide/pdfrasterizer4/media/comp-rast/adobe/BM_Lighten.png"/></td>
+	</tr>
+</table>
 
-- **Luminosity** ([PDF](/guide/pdfrasterizer4/media/comp-rast/BM_Luminosity.pdf))
+### Luminosity ([PDF](/guide/pdfrasterizer4/media/comp-rast/BM_Luminosity.pdf))
 
-| Rasterizer 3 | Rasterizer 4 | Adobe Reader |
-| :----------: | :----------: | :----------: |
-| ![](/guide/pdfrasterizer4/media/comp-rast/rast3/BM_Luminosity.png) | ![](/guide/pdfrasterizer4/media/comp-rast/rast4/BM_Luminosity.png) | ![](/guide/pdfrasterizer4/media/comp-rast/adobe/BM_Luminosity.png) |
+<table>
+	<tr>
+		<td style="border-width:0;text-align:center;">3.0</td>
+		<td style="border-width:0;text-align:center;">4.0</td>
+		<td style="border-width:0;text-align:center;">Adobe Reader</td>
+	</tr>
+	<tr>
+		<td style="border-width:0;"><img src="https://raw.githubusercontent.com/tallcomponents/content/master/guide/pdfrasterizer4/media/comp-rast/rast3/BM_Luminosity.png"/></td>
+		<td style="border-width:0;"><img src="https://raw.githubusercontent.com/tallcomponents/content/master/guide/pdfrasterizer4/media/comp-rast/rast4/BM_Luminosity.png"/></td>
+		<td style="border-width:0;"><img src="https://raw.githubusercontent.com/tallcomponents/content/master/guide/pdfrasterizer4/media/comp-rast/adobe/BM_Luminosity.png"/></td>
+	</tr>
+</table>
 
-- **Multiply** ([PDF](/guide/pdfrasterizer4/media/comp-rast/BM_Multiply.pdf))
+### Multiply ([PDF](/guide/pdfrasterizer4/media/comp-rast/BM_Multiply.pdf))
 
-| Rasterizer 3 | Rasterizer 4 | Adobe Reader |
-| :----------: | :----------: | :----------: |
-| ![](/guide/pdfrasterizer4/media/comp-rast/rast3/BM_Multiply.png) | ![](/guide/pdfrasterizer4/media/comp-rast/rast4/BM_Multiply.png) | ![](/guide/pdfrasterizer4/media/comp-rast/adobe/BM_Multiply.png) |
+<table>
+	<tr>
+		<td style="border-width:0;text-align:center;">3.0</td>
+		<td style="border-width:0;text-align:center;">4.0</td>
+		<td style="border-width:0;text-align:center;">Adobe Reader</td>
+	</tr>
+	<tr>
+		<td style="border-width:0;"><img src="https://raw.githubusercontent.com/tallcomponents/content/master/guide/pdfrasterizer4/media/comp-rast/rast3/BM_Multiply.png"/></td>
+		<td style="border-width:0;"><img src="https://raw.githubusercontent.com/tallcomponents/content/master/guide/pdfrasterizer4/media/comp-rast/rast4/BM_Multiply.png"/></td>
+		<td style="border-width:0;"><img src="https://raw.githubusercontent.com/tallcomponents/content/master/guide/pdfrasterizer4/media/comp-rast/adobe/BM_Multiply.png"/></td>
+	</tr>
+</table>
 
-- **Normal** ([PDF](/guide/pdfrasterizer4/media/comp-rast/BM_Normal.pdf))
+### Normal ([PDF](/guide/pdfrasterizer4/media/comp-rast/BM_Normal.pdf))
 
-| Rasterizer 3 | Rasterizer 4 | Adobe Reader |
-| :----------: | :----------: | :----------: |
-| ![](/guide/pdfrasterizer4/media/comp-rast/rast3/BM_Normal.png) | ![](/guide/pdfrasterizer4/media/comp-rast/rast4/BM_Normal.png) | ![](/guide/pdfrasterizer4/media/comp-rast/adobe/BM_Normal.png) |
+<table>
+	<tr>
+		<td style="border-width:0;text-align:center;">3.0</td>
+		<td style="border-width:0;text-align:center;">4.0</td>
+		<td style="border-width:0;text-align:center;">Adobe Reader</td>
+	</tr>
+	<tr>
+		<td style="border-width:0;"><img src="https://raw.githubusercontent.com/tallcomponents/content/master/guide/pdfrasterizer4/media/comp-rast/rast3/BM_Normal.png"/></td>
+		<td style="border-width:0;"><img src="https://raw.githubusercontent.com/tallcomponents/content/master/guide/pdfrasterizer4/media/comp-rast/rast4/BM_Normal.png"/></td>
+		<td style="border-width:0;"><img src="https://raw.githubusercontent.com/tallcomponents/content/master/guide/pdfrasterizer4/media/comp-rast/adobe/BM_Normal.png"/></td>
+	</tr>
+</table>
 
-- **Overlay** ([PDF](/guide/pdfrasterizer4/media/comp-rast/BM_Overlay.pdf))
+### Overlay ([PDF](/guide/pdfrasterizer4/media/comp-rast/BM_Overlay.pdf))
 
-| Rasterizer 3 | Rasterizer 4 | Adobe Reader |
-| :----------: | :----------: | :----------: |
-| ![](/guide/pdfrasterizer4/media/comp-rast/rast3/BM_Overlay.png) | ![](/guide/pdfrasterizer4/media/comp-rast/rast4/BM_Overlay.png) | ![](/guide/pdfrasterizer4/media/comp-rast/adobe/BM_Overlay.png) |
+<table>
+	<tr>
+		<td style="border-width:0;text-align:center;">3.0</td>
+		<td style="border-width:0;text-align:center;">4.0</td>
+		<td style="border-width:0;text-align:center;">Adobe Reader</td>
+	</tr>
+	<tr>
+		<td style="border-width:0;"><img src="https://raw.githubusercontent.com/tallcomponents/content/master/guide/pdfrasterizer4/media/comp-rast/rast3/BM_Overlay.png"/></td>
+		<td style="border-width:0;"><img src="https://raw.githubusercontent.com/tallcomponents/content/master/guide/pdfrasterizer4/media/comp-rast/rast4/BM_Overlay.png"/></td>
+		<td style="border-width:0;"><img src="https://raw.githubusercontent.com/tallcomponents/content/master/guide/pdfrasterizer4/media/comp-rast/adobe/BM_Overlay.png"/></td>
+	</tr>
+</table>
 
-- **Saturation** ([PDF](/guide/pdfrasterizer4/media/comp-rast/BM_Saturation.pdf))
+### Saturation ([PDF](/guide/pdfrasterizer4/media/comp-rast/BM_Saturation.pdf))
 
-| Rasterizer 3 | Rasterizer 4 | Adobe Reader |
-| :----------: | :----------: | :----------: |
-| ![](/guide/pdfrasterizer4/media/comp-rast/rast3/BM_Saturation.png) | ![](/guide/pdfrasterizer4/media/comp-rast/rast4/BM_Saturation.png) | ![](/guide/pdfrasterizer4/media/comp-rast/adobe/BM_Saturation.png) |
+<table>
+	<tr>
+		<td style="border-width:0;text-align:center;">3.0</td>
+		<td style="border-width:0;text-align:center;">4.0</td>
+		<td style="border-width:0;text-align:center;">Adobe Reader</td>
+	</tr>
+	<tr>
+		<td style="border-width:0;"><img src="https://raw.githubusercontent.com/tallcomponents/content/master/guide/pdfrasterizer4/media/comp-rast/rast3/BM_Saturation.png"/></td>
+		<td style="border-width:0;"><img src="https://raw.githubusercontent.com/tallcomponents/content/master/guide/pdfrasterizer4/media/comp-rast/rast4/BM_Saturation.png"/></td>
+		<td style="border-width:0;"><img src="https://raw.githubusercontent.com/tallcomponents/content/master/guide/pdfrasterizer4/media/comp-rast/adobe/BM_Saturation.png"/></td>
+	</tr>
+</table>
 
-- **Screen** ([PDF](/guide/pdfrasterizer4/media/comp-rast/BM_Screen.pdf))
+### Screen ([PDF](/guide/pdfrasterizer4/media/comp-rast/BM_Screen.pdf))
 
-| Rasterizer 3 | Rasterizer 4 | Adobe Reader |
-| :----------: | :----------: | :----------: |
-| ![](/guide/pdfrasterizer4/media/comp-rast/rast3/BM_Screen.png) | ![](/guide/pdfrasterizer4/media/comp-rast/rast4/BM_Screen.png) | ![](/guide/pdfrasterizer4/media/comp-rast/adobe/BM_Screen.png) |
+<table>
+	<tr>
+		<td style="border-width:0;text-align:center;">3.0</td>
+		<td style="border-width:0;text-align:center;">4.0</td>
+		<td style="border-width:0;text-align:center;">Adobe Reader</td>
+	</tr>
+	<tr>
+		<td style="border-width:0;"><img src="https://raw.githubusercontent.com/tallcomponents/content/master/guide/pdfrasterizer4/media/comp-rast/rast3/BM_Screen.png"/></td>
+		<td style="border-width:0;"><img src="https://raw.githubusercontent.com/tallcomponents/content/master/guide/pdfrasterizer4/media/comp-rast/rast4/BM_Screen.png"/></td>
+		<td style="border-width:0;"><img src="https://raw.githubusercontent.com/tallcomponents/content/master/guide/pdfrasterizer4/media/comp-rast/adobe/BM_Screen.png"/></td>
+	</tr>
+</table>
 
-- **Soft Light** ([PDF](/guide/pdfrasterizer4/media/comp-rast/BM_SoftLight.pdf))
+### Soft Light ([PDF](/guide/pdfrasterizer4/media/comp-rast/BM_SoftLight.pdf))
 
-| Rasterizer 3 | Rasterizer 4 | Adobe Reader |
-| :----------: | :----------: | :----------: |
-| ![](/guide/pdfrasterizer4/media/comp-rast/rast3/BM_SoftLight.png) | ![](/guide/pdfrasterizer4/media/comp-rast/rast4/BM_SoftLight.png) | ![](/guide/pdfrasterizer4/media/comp-rast/adobe/BM_SoftLight.png) |
+<table>
+	<tr>
+		<td style="border-width:0;text-align:center;">3.0</td>
+		<td style="border-width:0;text-align:center;">4.0</td>
+		<td style="border-width:0;text-align:center;">Adobe Reader</td>
+	</tr>
+	<tr>
+		<td style="border-width:0;"><img src="https://raw.githubusercontent.com/tallcomponents/content/master/guide/pdfrasterizer4/media/comp-rast/rast3/BM_SoftLight.png"/></td>
+		<td style="border-width:0;"><img src="https://raw.githubusercontent.com/tallcomponents/content/master/guide/pdfrasterizer4/media/comp-rast/rast4/BM_SoftLight.png"/></td>
+		<td style="border-width:0;"><img src="https://raw.githubusercontent.com/tallcomponents/content/master/guide/pdfrasterizer4/media/comp-rast/adobe/BM_SoftLight.png"/></td>
+	</tr>
+</table>
 
- \
-**more useful example** for luminosity blending mode ([PDF](/guide/pdfrasterizer4/media/comp-rast/Blending.pdf))
+### More useful example of luminosity blending mode ([PDF](/guide/pdfrasterizer4/media/comp-rast/Blending.pdf))
 
 Light blue colored rectangle is rendered in the background. Image partially overlaps this rectangle. Luminosity blending mode is used for rendering image.
 
-| Rasterizer 3 | Rasterizer 4 | Adobe Reader |
-| :----------: | :----------: | :----------: |
-| ![](/guide/pdfrasterizer4/media/comp-rast/rast3/Blending.png) | ![](/guide/pdfrasterizer4/media/comp-rast/rast4/Blending.png) | ![](/guide/pdfrasterizer4/media/comp-rast/adobe/Blending.png) |
+<table>
+	<tr>
+		<td style="border-width:0;text-align:center;">3.0</td>
+		<td style="border-width:0;text-align:center;">4.0</td>
+		<td style="border-width:0;text-align:center;">Adobe Reader</td>
+	</tr>
+	<tr>
+		<td style="border-width:0;"><img src="https://raw.githubusercontent.com/tallcomponents/content/master/guide/pdfrasterizer4/media/comp-rast/rast3/Blending.png"/></td>
+		<td style="border-width:0;"><img src="https://raw.githubusercontent.com/tallcomponents/content/master/guide/pdfrasterizer4/media/comp-rast/rast4/Blending.png"/></td>
+		<td style="border-width:0;"><img src="https://raw.githubusercontent.com/tallcomponents/content/master/guide/pdfrasterizer4/media/comp-rast/adobe/Blending.png"/></td>
+	</tr>
+</table>
 
 ## Image rendering quality
 
