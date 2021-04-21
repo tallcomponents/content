@@ -27,47 +27,97 @@ Foreground image is similar to previous one. It contains horizontal brown strips
 	</tr>
 </table>
 
-| Rasterizer 3 | Rasterizer 4 | Adobe Reader |
-| :----------: | :----------: | :----------: |
-| ![](/guide/pdfrasterizer4/media/comp-rast/rast3/BM_Color.png) | ![](/guide/pdfrasterizer4/media/comp-rast/rast4/BM_Color.png) | ![](/guide/pdfrasterizer4/media/comp-rast/adobe/BM_Color.png) |
-
 - **Color Burn** ([PDF](pdfrasterizer4/content/guide/pdfrasterizer4/media/comp-rast/BM_ColorBurn.pdf))
 
-| Rasterizer 3 | Rasterizer 4 | Adobe Reader |
-| :----------: | :----------: | :----------: |
-| ![](/guide/pdfrasterizer4/media/comp-rast/rast3/BM_ColorBurn.png) | ![](/guide/pdfrasterizer4/media/comp-rast/rast4/BM_ColorBurn.png) | ![](/guide/pdfrasterizer4/media/comp-rast/adobe/BM_ColorBurn.png) |
+<table>
+	<tr>
+		<td style="border-width:0;text-align:center;">3.0</td>
+		<td style="border-width:0;text-align:center;">4.0</td>
+		<td style="border-width:0;text-align:center;">Adobe Reader</td>
+	</tr>
+	<tr>
+		<td style="border-width:0;"><img src="https://raw.githubusercontent.com/tallcomponents/content/master/guide/pdfrasterizer4/media/comp-rast/rast3/BM_ColorBurn.png"/></td>
+		<td style="border-width:0;"><img src="https://raw.githubusercontent.com/tallcomponents/content/master/guide/pdfrasterizer4/media/comp-rast/rast4/BM_ColorBurn.png"/></td>
+		<td style="border-width:0;"><img src="https://raw.githubusercontent.com/tallcomponents/content/master/guide/pdfrasterizer4/media/comp-rast/adobe/BM_ColorBurn.png"/></td>
+	</tr>
+</table>
 
 - **Color Dodge** ([PDF](/guide/pdfrasterizer4/media/comp-rast/BM_ColorDodge.pdf))
 
-| Rasterizer 3 | Rasterizer 4 | Adobe Reader |
-| :----------: | :----------: | :----------: |
-| ![](/guide/pdfrasterizer4/media/comp-rast/rast3/BM_ColorDodge.png) | ![](/guide/pdfrasterizer4/media/comp-rast/rast4/BM_ColorDodge.png) | ![](/guide/pdfrasterizer4/media/comp-rast/adobe/BM_ColorDodge.png) |
+<table>
+	<tr>
+		<td style="border-width:0;text-align:center;">3.0</td>
+		<td style="border-width:0;text-align:center;">4.0</td>
+		<td style="border-width:0;text-align:center;">Adobe Reader</td>
+	</tr>
+	<tr>
+		<td style="border-width:0;"><img src="https://raw.githubusercontent.com/tallcomponents/content/master/guide/pdfrasterizer4/media/comp-rast/rast3/BM_ColorDodge.png"/></td>
+		<td style="border-width:0;"><img src="https://raw.githubusercontent.com/tallcomponents/content/master/guide/pdfrasterizer4/media/comp-rast/rast4/BM_ColorDodge.png"/></td>
+		<td style="border-width:0;"><img src="https://raw.githubusercontent.com/tallcomponents/content/master/guide/pdfrasterizer4/media/comp-rast/adobe/BM_ColorDodge.png"/></td>
+	</tr>
+</table>
 
 - **Darken** ([PDF](/guide/pdfrasterizer4/media/comp-rast/BM_Darken.pdf))
 
-| Rasterizer 3 | Rasterizer 4 | Adobe Reader |
-| :----------: | :----------: | :----------: |
-| ![](/guide/pdfrasterizer4/media/comp-rast/rast3/BM_Darken.png) | ![](/guide/pdfrasterizer4/media/comp-rast/rast4/BM_Darken.png) | ![](/guide/pdfrasterizer4/media/comp-rast/adobe/BM_Darken.png) |
+<table>
+	<tr>
+		<td style="border-width:0;text-align:center;">3.0</td>
+		<td style="border-width:0;text-align:center;">4.0</td>
+		<td style="border-width:0;text-align:center;">Adobe Reader</td>
+	</tr>
+	<tr>
+		<td style="border-width:0;"><img src="https://raw.githubusercontent.com/tallcomponents/content/master/guide/pdfrasterizer4/media/comp-rast/rast3/BM_Darken.png"/></td>
+		<td style="border-width:0;"><img src="https://raw.githubusercontent.com/tallcomponents/content/master/guide/pdfrasterizer4/media/comp-rast/rast4/BM_Darken.png"/></td>
+		<td style="border-width:0;"><img src="https://raw.githubusercontent.com/tallcomponents/content/master/guide/pdfrasterizer4/media/comp-rast/adobe/BM_Darken.png"/></td>
+	</tr>
+</table>
 
 - **Difference** ([PDF](/guide/pdfrasterizer4/media/comp-rast/BM_Difference.pdf))
 
-| Rasterizer 3 | Rasterizer 4 | Adobe Reader |
-| :----------: | :----------: | :----------: |
-| ![](/guide/pdfrasterizer4/media/comp-rast/rast3/BM_Difference.png) | ![](/guide/pdfrasterizer4/media/comp-rast/rast4/BM_Difference.png) | ![](/guide/pdfrasterizer4/media/comp-rast/adobe/BM_Difference.png) |
+<table>
+	<tr>
+		<td style="border-width:0;text-align:center;">3.0</td>
+		<td style="border-width:0;text-align:center;">4.0</td>
+		<td style="border-width:0;text-align:center;">Adobe Reader</td>
+	</tr>
+	<tr>
+		<td style="border-width:0;"><img src="https://raw.githubusercontent.com/tallcomponents/content/master/guide/pdfrasterizer4/media/comp-rast/rast3/BM_Difference.png"/></td>
+		<td style="border-width:0;"><img src="https://raw.githubusercontent.com/tallcomponents/content/master/guide/pdfrasterizer4/media/comp-rast/rast4/BM_Difference.png"/></td>
+		<td style="border-width:0;"><img src="https://raw.githubusercontent.com/tallcomponents/content/master/guide/pdfrasterizer4/media/comp-rast/adobe/BM_Difference.png"/></td>
+	</tr>
+</table>
 
 - **Exclusion** ([PDF](/guide/pdfrasterizer4/media/comp-rast/BM_Exclusion.pdf))
 
-| Rasterizer 3 | Rasterizer 4 | Adobe Reader |
-| :----------: | :----------: | :----------: |
-| ![](/guide/pdfrasterizer4/media/comp-rast/rast3/BM_Exclusion.png) | ![](/guide/pdfrasterizer4/media/comp-rast/rast4/BM_Exclusion.png) | ![](/guide/pdfrasterizer4/media/comp-rast/adobe/BM_Exclusion.png) |
+<table>
+	<tr>
+		<td style="border-width:0;text-align:center;">3.0</td>
+		<td style="border-width:0;text-align:center;">4.0</td>
+		<td style="border-width:0;text-align:center;">Adobe Reader</td>
+	</tr>
+	<tr>
+		<td style="border-width:0;"><img src="https://raw.githubusercontent.com/tallcomponents/content/master/guide/pdfrasterizer4/media/comp-rast/rast3/BM_Exclusion.png"/></td>
+		<td style="border-width:0;"><img src="https://raw.githubusercontent.com/tallcomponents/content/master/guide/pdfrasterizer4/media/comp-rast/rast4/BM_Exclusion.png"/></td>
+		<td style="border-width:0;"><img src="https://raw.githubusercontent.com/tallcomponents/content/master/guide/pdfrasterizer4/media/comp-rast/adobe/BM_Exclusion.png"/></td>
+	</tr>
+</table>
 
 - **Hard Light** ([PDF](/guide/pdfrasterizer4/media/comp-rast/BM_HardLight.pdf))
 
-| Rasterizer 3 | Rasterizer 4 | Adobe Reader |
-| :----------: | :----------: | :----------: |
-| ![](/guide/pdfrasterizer4/media/comp-rast/rast3/BM_HardLight.png) | ![](/guide/pdfrasterizer4/media/comp-rast/rast4/BM_HardLight.png) | ![](/guide/pdfrasterizer4/media/comp-rast/adobe/BM_HardLight.png) |
+<table>
+	<tr>
+		<td style="border-width:0;text-align:center;">3.0</td>
+		<td style="border-width:0;text-align:center;">4.0</td>
+		<td style="border-width:0;text-align:center;">Adobe Reader</td>
+	</tr>
+	<tr>
+		<td style="border-width:0;"><img src="https://raw.githubusercontent.com/tallcomponents/content/master/guide/pdfrasterizer4/media/comp-rast/rast3/BM_HardLight.png"/></td>
+		<td style="border-width:0;"><img src="https://raw.githubusercontent.com/tallcomponents/content/master/guide/pdfrasterizer4/media/comp-rast/rast4/BM_HardLight.png"/></td>
+		<td style="border-width:0;"><img src="https://raw.githubusercontent.com/tallcomponents/content/master/guide/pdfrasterizer4/media/comp-rast/adobe/BM_HardLight.png"/></td>
+	</tr>
+</table>
 
-- **Hue** ([PDF](/guide/pdfrasterizer4/media/comp-rast/BM_Hue.pdf))
+** ([PDF](/guide/pdfrasterizer4/media/comp-rast/BM_Hue.pdf))
 
 | Rasterizer 3 | Rasterizer 4 | Adobe Reader |
 | :----------: | :----------: | :----------: |
