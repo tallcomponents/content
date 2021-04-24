@@ -1,3 +1,4 @@
 introduction:guide\pdfrasterizer4\introduction.md:Introduction
- preciserendering:guide\pdfrasterizer4\preciserendering.md:Precise rendering
+preciserendering:guide\pdfrasterizer4\preciserendering.md:Precise rendering
+skiasurface:guide\pdfrasterizer4\skiasurface.md:Render to Skia surface
 
