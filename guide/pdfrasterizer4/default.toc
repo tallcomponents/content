@@ -1,4 +1,4 @@
 introduction:guide\pdfrasterizer4\introduction.md:Introduction
 preciserendering:guide\pdfrasterizer4\preciserendering.md:Precise rendering
 skiasurface:guide\pdfrasterizer4\skiasurface.md:Render to Skia surface
-convert-to-tiff::guide\pdfrasterizer4\convert-to-tiff.md:Convert to TIFF
+convert-to-tiff:guide\pdfrasterizer4\convert-to-tiff.md:Convert to TIFF
