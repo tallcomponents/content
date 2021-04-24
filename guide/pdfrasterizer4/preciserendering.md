@@ -1,6 +1,6 @@
-# More precise rendering
+# Pixel perfect rendering
 
-Starting with version 4.0, PDFRasterizer.NET renders much more precisely due to an overhaul of our render engine. 
+Starting with version 4.0, PDFRasterizer.NET renders pixel perfect due to a complete overhaul of our render engine. 
 
 The following compares the rendering of PDFRasterizer.NET 3.0, 4.0 and Adobe PDF Reader.
 
