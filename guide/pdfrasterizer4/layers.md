@@ -26,7 +26,7 @@ using (var pdfFile = new FileStream(pdfPath, FileMode.Open, FileAccess.Read))
 
    using (var pngFile = new FileStream(pngPath, FileMode.Create))
    {
-     page.SaveAsBitmap(pngFile, ImageEncoding.Png, cDPI);
+     page.SaveAsBitmap(pngFile, ImageEncoding.Png, 150f);
    }
 }
 ```
@@ -61,7 +61,7 @@ using (var pdfFile = new FileStream(pdfPath, FileMode.Open, FileAccess.Read))
   
     using (var pngFile = new FileStream($"{layer.Name}.png", FileMode.Create))
     {
-      page.SaveAsBitmap(pngFile, ImageEncoding.Png, cDPI, settings); 
+      page.SaveAsBitmap(pngFile, ImageEncoding.Png, 150f, settings); 
     }
   }
 }
