@@ -1,6 +1,6 @@
 # Convert to bitmap
 
-The following code shows how to save the first page of a PDF document as a PNG at 150 DPI:
+The following code saves the first page of a PDF document as a PNG at 150 DPI:
 
 ``` csharp
 using (var pdfFile = new FileStream(pdfPath, FileMode.Open, FileAccess.Read))
