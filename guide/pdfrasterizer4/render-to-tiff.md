@@ -1,4 +1,4 @@
-# Convert to TIFF
+# Render to TIFF
 
 Conversion of PDF to single- or multipage TIFF is a common use. Therefor we offer a conveniency method to do this easily.
 

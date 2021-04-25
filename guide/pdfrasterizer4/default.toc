@@ -1,7 +1,7 @@
 introduction:guide\pdfrasterizer4\introduction.md:Introduction
 preciserendering:guide\pdfrasterizer4\preciserendering.md:Precise rendering
 skia-surface:guide\pdfrasterizer4\skia-surface.md:Render to Skia surface
-convert-to-tiff:guide\pdfrasterizer4\convert-to-tiff.md:Convert to TIFF
-save-as-bitmap:guide\pdfrasterizer4\save-as-bitmap.md:Save page as bitmap
+render-to-tiff:guide\pdfrasterizer4\render-to-tiff.md:Render to TIFF
+render-to-bitmap:guide\pdfrasterizer4\render-to-bitmap.md:Render to bitmap
 layers:guide\pdfrasterizer4\layers.md:Render layers
 portfolio:guide\pdfrasterizer4\portfolio.md:PDF portfolio

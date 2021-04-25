@@ -1,4 +1,4 @@
-# Convert to bitmap
+# Render to bitmap
 
 The following code saves the first page of a PDF document as a PNG at 150 DPI:
 
