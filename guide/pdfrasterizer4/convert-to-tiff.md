@@ -70,11 +70,12 @@ var options = new ConvertToTiffOptions
   DitherMatrix = matrix
 };
 
-var pdf = new Document(pdfStream);
-var page = pdfDocument.Pages[0];
-
-using (var tiffStream = new FileStream("image.tiff", FileMode.Create))
+using (var pdfStream = new FileStream("some.pdf", FileMode.Open, FileAccess.Read))
+using (var tiffStream = new FileStream("firstpage.tiff", FileMode.Create))
 {
-    page.ConvertToTiff(tiffStream, options);
+  var pdf = new Document(pdfStream);
+  var page = pdfDocument.Pages[0];
+
+  page.ConvertToTiff(tiffStream, options);
 }
 ```
