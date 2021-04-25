@@ -51,9 +51,9 @@ This is done to prevent color banding and other large scale patterns to occur in
 
 ![Dither example](/guide/pdfrasterizer4/media/Michelangelo's_David_-_Floyd-Steinberg.png)
 
-The `ConvertToTiffOptions.DitherMatrix` property can be used to specify a dither matrix. 
-This is only useful when converting to monochrome image.
-The following code converts a PDF page to a bitmap image, while applying a dither matrix to the generated image:
+Property `ConvertToTiffOptions.DitherMatrix` is used to specify a dither matrix. 
+This is only meaningful when converting to a monochrome image.
+The following code converts a PDF page to a monochrome TIFF while applying a dither matrix to the generated image:
 
 ``` csharp
 var matrix = new int[][] { 
