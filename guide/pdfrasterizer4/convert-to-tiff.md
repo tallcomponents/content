@@ -47,7 +47,7 @@ A common use of dither is converting a grayscale image to black and white, such 
 new image approximates the average gray-level in the original.
 Dithering is the processing of applying a matrix to the original image and thereby adding seemingly randomized noise. 
 This is done to prevent color banding and other large scale patterns to occur in your image. 
-[Read more](https://en.wikipedia.org/wiki/Dither).
+<a href="https://en.wikipedia.org/wiki/Dither">Read more</a>.
 
 ![Dither example](/guide/pdfrasterizer4/media/Michelangelo's_David_-_Floyd-Steinberg.png)
 
