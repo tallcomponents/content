@@ -40,3 +40,41 @@ using (var tiffFile = new FileStream(tiffPath, FileMode.Create))
   pdf.ConvertToTiff(file, tiffOptions);
 }
 ```
+
+## Specify dither matrix
+
+A common use of dither is converting a grayscale image to black and white, such that the density of black dots in the 
+new image approximates the average gray-level in the original.
+Dithering is the processing of applying a matrix to the original image and thereby adding seemingly randomized noise. 
+This is done to prevent color banding and other large scale patterns to occur in your image. 
+[Read more](https://en.wikipedia.org/wiki/Dither).
+
+![Dither example](/guide/pdfrasterizer4/media/Michelangelo's_David_-_Floyd-Steinberg.png)
+
+The `ConvertToTiffOptions.DitherMatrix` property can be used to specify a dither matrix. 
+This is only useful when converting to monochrome image.
+The following code converts a PDF page to a bitmap image, while applying a dither matrix to the generated image:
+
+``` csharp
+var matrix = new int[][] { 
+  new int[] {  1,  9,  3, 11 },
+  new int[] { 13,  5, 15,  7 },
+  new int[] {  4, 12,  2, 10 },
+  new int[] { 16,  8, 14,  6 } 
+};
+
+var options = new ConvertToTiffOptions
+{
+  Resolution = 150f,
+  Compression = TiffCompression.CcittG4,
+  DitherMatrix = matrix
+};
+
+var pdf = new Document(pdfStream);
+var page = pdfDocument.Pages[0];
+
+using (var tiffStream = new FileStream("image.tiff", FileMode.Create))
+{
+    page.ConvertToTiff(tiffStream, options);
+}
+```
