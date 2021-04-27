@@ -3,5 +3,6 @@ preciserendering:guide\pdfrasterizer4\preciserendering.md:Precise rendering
 skia-surface:guide\pdfrasterizer4\skia-surface.md:Render to Skia surface
 render-to-tiff:guide\pdfrasterizer4\render-to-tiff.md:Render to TIFF
 render-to-bitmap:guide\pdfrasterizer4\render-to-bitmap.md:Render to bitmap
+fonts:guide\pdfrasterizer4\text-fonts.md:Text and fonts
 layers:guide\pdfrasterizer4\layers.md:Render layers
 portfolio:guide\pdfrasterizer4\portfolio.md:PDF portfolio
