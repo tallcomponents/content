@@ -77,22 +77,102 @@ Definitions in the Agreement importing the singular shall include the plural and
 1. TC may from time to time make available to the Customer updates or upgrades of the Web API, including to provide new or enhanced functionality or components, as and when available as part of TC’s maintenance and support program. If the Customer can demonstrate that the upgrade or update of the Web API would have a negative impact on the Customer, the Customer has the right to terminate the Agreement within 30 days after the announcement of TC; after these 30 days, the termination right automatically expires. 
 1. Support excludes anything that is specific to the Customer's application. Support only covers the workings of the Web API itself.
 1. Support assumes a basic understanding of Web API development techniques by the developer of the Customer. TC reserves the right to refuse support if, on its sole discretion, TC deems the developer of the Customer to be insufficiently skilled.
-1. ... add support ...
 
+## ARTICLE 6: Continuity and security
 
+1. TC shall provide the Customer with a mechanism for downloading a backup of files created by Customer stored with the Web API. The Customer shall be responsible for downloading the backup and for storing the files in the Customer’s environment as Customer deems fit. 
+1. TC is solely responsible to adequately secure TC’s environment used to provide the Web API. The Customer is solely responsible to adequately secure the Customer environment, software and hardware used to receive and use the Web API. 
 
+## ARTICLE 7: Customer's obligations
 
+1. Unless otherwise expressly agreed between the parties, the Customer shall be responsible for the necessary premises, infrastructure and technical and organizational environment, including hardware and software configuration, peripherals and connections to access the Web API. TC may provide the Customer with the minimal technical specifications, without accepting liability on the functionalities of such hardware, software, configurations, peripherals and connections.
+1. The Customer is responsible to timely obtain any licenses, consents or permissions required for the performance and use of the Web API. 
+1. The Customer is solely responsible for its use of the Web API, and for the data entered into the Web API, including the correctness, completeness and non-infringing nature thereof.
+1. The Customer ensures that developers requesting technical support on behalf of the Customer have a basic understanding of software development in general and of web api development in particular. TC reserves the right to refuse support if on its sole discretion TC deems these developers to be insufficiently skilled.
 
+## ARTICLE 8: Financial arrangements
 
+1. The financial arrangements, including the Fee, are described in the applicable Plan. The Customer can upgrade, downgrade or terminate the Plan during the subscription period of the Plan, unless otherwise specified in the Plan. In the event the Plan is downgraded or terminated during the subscription period of the Plan, the Fee applicable to the original Plan remains applicable for the remaining subscription period of that Plan. In the event the Plan is upgraded during the subscription period of the original Plan, the Fee for the new Plan becomes applicable immediately and will be proportional to the remaining subscription period and the Fee for the original Plan is credited proportional to the elapsed subscription period. 
+1. Invoicing of the Fee will take place immediately after each payment. The Fee is non-refundable.  
+1. The Fees are in Euros, Pounds Sterling or United States Dollars, and exclusive of value added tax (VAT) and other taxes and levies. Where such taxes or levies must be paid under the applicable laws and regulations, they will be added at each term of the Fee. All Fees are invoiced in Euros, Pounds Sterling or United States Dollars.
+1. The information in TC's administration provides full evidence of the usage of the Web API by Customer and the Fees due by the Customer for this usage, without prejudice to the Customer's right to provide evidence to the contrary.
+1. Customer provides a payment method and authorizes TC to charge payment according to the current Plan.
+1. Any right of suspension or off setting by the Customer is excluded. By exceeding the payment term the Customer is automatically in default (verzuim) without further notice being required, and TC is entitled to charge the statutory commercial interest. In the event of continued non-payment beyond a cure period of fourteen (14) days, all recovery costs are to be borne by the Customer, and TC is entitled to suspend (opschorten) and/or terminate (opzeggen) the Agreement by giving written notice and after escalating its intend to suspend or terminate at management level at the Customer.
 
+## ARTICLE 9: Intellectual Property Rights
 
+1. All intellectual property rights, including equivalent rights in knowhow, business rules, algorithms, and trade secrets, relating to the Web API and any amendments thereto or further developments thereof and the Web API, in any case, but not exclusively, the copyrights, belong to and remain with TC, its Affiliates, subcontractors and licensors. No interest in any such intellectual property rights shall at any time pass to or vest in the Customer by the operation of the Agreement.
+1. TC shall indemnify the Customer against claims of third parties based on the allegation that the Web API infringes a valid intellectual property right, provided that the Customer immediately informs TC in writing of any such claim, does not make any acknowledgments or statements with respect to the allegation, and leaves the handling of the case, including reaching settlements. This is the sole remedy of the Customer in the event of such third party claims. The limitations and exclusion of liability set out in the Agreement apply to this indemnity. 
+1. The Customer indemnifies TC against any and all claims, damage, expenses and costs (including reasonable attorney fees) arising from or in connection with (i) unauthorized use of the Confidential Information or intellectual property rights of TC, its Affiliates, licensors and subcontractors, (ii) the usage of the Web API by or on behalf of the Customer, including the documents uploaded by the Company, and (iii) any product liability claims or actions. TC will inform the Customer of any claim in writing, and provide the Customer all reasonable cooperation in the defence against that action at the Customer's expense. In its defence, the Customer shall take into account the reputation and commercial interests of TC, and shall not make any admissions on behalf of TC that are not pre-approved in writing.
 
+## ARTICLE 10: Publicity
 
+1. TC is entitled to include the Customer in lists of references, mentioning its name and using its logo, brands and other means of identification (including in printed promotional brochures and on the TC website), and to mention it as a reference customer to interested parties without prior consent of the Customer. 
 
+## ARTICLE 11: Personal data
 
+1. The parties will comply with their specific obligations under applicable laws regarding personal data in the context of the processing of personal data within the meaning of the GDPR in connection with the performance of the Agreement, and provide each other any necessary information and reasonable cooperation required for such compliance without undue delay. TC may charge its cooperation at its then current hourly rates.
+1. Insofar as the services (partly) consist of the processing of personal data that are inserted or processed by the Customer using the Web API and the GDPR applies, the following is agreed:
+   1. Customer is acting as the controller and TC is acting as the processor;
+   1. TC processes the personal data on the basis of Customer’s documented instructions, which instructions shall be deemed to be included in the Agreement;
+   1. TC is obliged to ensure that the persons authorized to process the personal data have committed themselves to confidentiality or are under an appropriate statutory obligation of confidentiality;
+   1. TC undertakes to take all the security measures required pursuant to article 32 of the GDPR with regard to the Web API;
+   1. taking into account the nature of the processing and the information available to TC, TC will assist Customer in complying with the obligations under articles 32 to 36 of the GDPR; 
+   1. taking into account the nature of the processing, TC will assist Customer by appropriate technical and organizational measures, insofar as this is possible, for the fulfilment of its obligation to respond to requests for exercising the data subject's rights laid down in chapter III of the GDPR;
+   1. Customer gives TC general authorization to use sub-processors to fulfil its contractual obligations with Customer. TC will notify Customer in a timely manner of intended changes concerning the addition or replacement of sub-processors and offer Customer the opportunity to object to such change. With such sub-processors, TC will enter into a written sub-processor agreement imposing on the sub-processor the same obligations as are imposed on TC in relation to the processing of personal data in the Agreement. If the sub-processor fails to perform its data protection obligations to TC, TC shall be fully liable to Customer for the performance of the sub-processor's obligations under such sub-processor agreement; 
+   1. TC shall within a period of 1 month after termination of the Agreement delete all personal data, unless and to the extent return or deletion is prohibited by law. 
+   1. TC will make available to Customer all information necessary to demonstrate compliance with the obligations laid down in this clause and will allow for and contribute to audits, including inspections, conducted by Customer or another auditor mandated by Customer. Such audits will be carried out by mutual agreement, not more often than once a year. Audits will be conducted in a manner that (i) minimizes the impact on TC’ business operations and (ii) complies with TC’ applicable security and confidentiality obligations. External auditors may only be engaged after they have signed an appropriate confidentiality agreement to protect TC’ interests and TC’ customers. Customer will bear its own costs of conducting audits.
+   1. TC may charge its reasonable costs and fees for assisting Customer with any request under this clause against its then current rates.
+1. Customer will indemnify TC against any claim by a data subject or third party against TC in respect of Customer’s breaches of this clause or Customer’s noncompliance with data protection legislation.
 
+## ARTICLE 12: Liability
 
+1. TC will only be liable for direct damages. Direct damages only include:
+   1. damage to the property of the Customer, and the recovery costs thereof;
+   1. necessary costs for required changes or changes to reduce or repair damage; and
+   1. reasonable costs incurred to prevent or limit direct damage, which as a result of the event on which the liability is based, should be expected.
+1. TC’s liability for any indirect or consequential damage, loss of profit, lost savings, operating costs, loss of reputation, business interruption, loss of use, loss of data, costs of procurement of substitute goods, technologies or services or cost of cover is expressly excluded.
+1. In the event of a breach of the Agreement, liability shall only arise in the event of default (verzuim) by TC. In the event a breach is capable of remedy, TC will only be in default if it has failed to remedy the breach within a reasonable period of at least thirty (30) calendar days of receiving a written notice (ingebrekestelling) from the Customer to do so, identifying the breach in a clear and detailed manner, or, if the breach is not capable of remedy within thirty (30) calendar days, has failed to diligently proceed to cure the breach by taking active steps to do so and to cure the breach within sixty (60) calendar days after receipt of the relevant notice or such reasonable longer period as indicated by TC in writing. 
+1. The total, aggregated liability of TC, for whatever reason, arising from or in connection with the Agreement is limited to the Fee invoiced and paid by the Customer in the contract year preceding the claim. 
+1. The aforementioned limitation on the liability does not apply in case of damages incurred due to intent or gross negligence on the part of TC or its directors.
+1. The Customer's right to claim damages lapses after a period of twelve (12) months following the moment that the Customer has become aware or should have reasonably become aware of the event from which the damage has occurred.
+1. TC accepts no liability for the situation that Customer exceeds the limitations of the Plan, which inter alia may result in lower service quality or suspension of access to the Web API or termination of the Agreement by TC.
 
+## ARTICLE 13: Force majeure
 
+1. In the event of force majeure, all obligations to which the force majeure applies (with the exception of the obligation to pay the Fees due), shall be suspended for the duration of the force majeure. Force majeure means a shortcoming which prevents permanent or temporary performance of the Agreement and which by law cannot be attributed to the defaulting party in accordance with a legal act or according to generally accepted standards in business traffic. A force majeure event shall be notified to the other party in writing without undue delay,
 
+## ARTICLE 14: Term and termination
 
+1. The Agreement is entered into on the date of acceptance of the Terms for an indefinite period of time. 
+1. Each party is entitled to cancel (opzeggen) the Agreement with immediate effect by giving written notice if:
+   1. the other party is in default (verzuim) by failing to perform any material obligation on its part. If a party has committed a breach of its obligations in the Agreement which is capable of remedy, a party will only be in default if it has failed to remedy the breach within a reasonable period of at least thirty (30) calendar days of receiving a written notice (ingebrekestelling) from the other party to do so, identifying the breach in a clear and detailed manner, or, if the breach is not capable of remedy within thirty (30) calendar days, has failed to diligently proceed to cure the breach by taking active steps to do so and to cure the breach within sixty (60) calendar days after receipt of the relevant notice or such reasonable longer period as indicated by the breaching party in writing; 
+   1. the other party has been declared bankrupt or has filed for its own bankruptcy, applies for a moratorium on payments, is placed under guardianship or administration, is affected by attachment or otherwise loses the power of disposition or legal capacity with regard to its assets or a part thereof;
+   1. the other party discontinues its entire business permanently (for the avoidance of doubt: this does not include situations relating to change of control or merger); 
+   1. an amendment to applicable laws is adopted, as a result of which the provision of all or part of the Web API will be in conflict with applicable laws or will no longer be profitable for TC; or
+   1. the other party is unable to perform its obligations under the Agreement due to force majeure (overmacht) for a consecutive period of at least ninety (90) days.
+   1. the Customer infringes the intellectual property rights of TC.
+1. Each party waives its statutory right to dissolve (ontbinden) the Agreement in full or in part. Article 6:265 of the Dutch Civil Code is excluded.
+1. In the event of termination or expiry of the Agreement for any reason, each party shall, at the choice of the other party, either return any Confidential Information provided by the other party, both original and copies, or hand over a written certificate of destruction.
+1. After the termination or expiry of the Agreement the rights to use the Web API are retracted, and the license automatically terminates.
+1. The termination or expiry of the Agreement has no consequences for previous use of the Web API, and shall not affect any rights or liabilities which have accrued prior to the date of termination. All Fees paid are non-refundable. 
+1. Provisions which by their nature are intended to continue after the end of the Agreement shall remain in force after the end of the Agreement. These obligations include warranties, liability, intellectual property rights, exit, confidentiality, data protection, dispute resolution and applicable law.
+
+## ARTICLE 15: Communication
+
+1. The Customer accepts that communication and service announcements may take place by means of the user account. Where the Agreement states that communication must be made or confirmed in writing, this will be deemed to include communication by email or via the user account.
+1. All communication and documents in connection with the Agreement must be prepared in the English language.
+1. Any communications outside Business Days will be deemed to have reached the other party at the beginning of the next Business Day. If a response is requested, each party will use best efforts to remind the other party to send a response prior to the end of the period given in the communication.
+
+## ARTICLE 16: Governing law and choice of forum
+
+1. The Agreement is construed under and governed by Dutch Law. The Vienna Sales Convention 1980 is excluded.
+1. All disputes relating to or arising from the Agreement or the performance thereof, shall be exclusively submitted, in the first instance, to the competent Court of Amsterdam, located in Amsterdam, the Netherlands. Notwithstanding the foregoing, TC may elect to enforce any of its rights hereunder in the local courts of your country.
+
+## ARTICLE 17: Miscellaneous
+
+1. If any term or provision of the Agreement, is held by a competent court to be invalid, illegal or is not held unenforceable, for any reason, this provision shall be removed, and the remaining provisions of the Agreement shall remain in full force and effect as if the Agreement had been concluded without the invalid, illegal or unenforceable provision herein. In a case of invalidity, it is essential that the fulfilment
+of the purpose of the Agreement be held to and the parties immediately and in good faith begin negotiations to remedy this invalidity.
+1. With the exception of subsequent changes to the Agreement, the Agreement constitutes the entire agreement between the parties with respect to the subject matter of the Agreement and cancels and supersedes any other verbal or written agreements, statements, proposals, understandings, warranties and liabilities between the parties pertaining to the subject matter of the Agreement.
+1. Each of the parties shall bear its own costs in connection with the preparation and conclusion of the Agreement.
+1. The Customer shall not assign, transfer, charge or otherwise deal with any of its rights under the Agreement nor grant, declare, create or dispose of any right or interest in them, without the prior written consent of TC. TC may assign, transfer, charge or otherwise deal with any of its rights under the Agreement, or grant, declare, create or dispose of any right or interest in them, without the prior written consent of the Customer. 
