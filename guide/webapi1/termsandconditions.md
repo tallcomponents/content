@@ -72,7 +72,12 @@ Definitions in the Agreement importing the singular shall include the plural and
 1. Unless agreed otherwise, information on delivery and service provision times, deadlines, and service levels are non-binding, meaning that TC is not automatically in default (verzuim) by not meeting a service provision time, deadline, or service level. 
 1. TC may use Affiliates and subcontractors for the performance of its obligations under the Agreement. To the extent such Affiliates and subcontractors will process personal data, TC will inform the Customer in advance.
 
+## ARTICLE 5: Maintenance and support
 
+1. TC may from time to time make available to the Customer updates or upgrades of the Web API, including to provide new or enhanced functionality or components, as and when available as part of TC’s maintenance and support program. If the Customer can demonstrate that the upgrade or update of the Web API would have a negative impact on the Customer, the Customer has the right to terminate the Agreement within 30 days after the announcement of TC; after these 30 days, the termination right automatically expires. 
+1. Support excludes anything that is specific to the Customer's application. Support only covers the workings of the Web API itself.
+1. Support assumes a basic understanding of Web API development techniques by the developer of the Customer. TC reserves the right to refuse support if, on its sole discretion, TC deems the developer of the Customer to be insufficiently skilled.
+1. ... add support ...
 
 
 
