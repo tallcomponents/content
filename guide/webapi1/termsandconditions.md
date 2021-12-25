@@ -51,7 +51,7 @@ Definitions in the Agreement importing the singular shall include the plural and
 1. The Customer shall keep the login details for the user account confidential, and is responsible for any actions taken under its user account. The Customer shall notify TC immediately of any breach of security or unauthorized use of the login details that the Customer becomes aware of.
 1. TC may, at its sole discretion, close the user account, or suspend or restrict your use of the Web API, or terminate the Agreement in the event of actual or suspected fraud, abuse of the Web API, or violation of the Agreement. 
 
-## Use of the Web API
+## ARTICLE 3: Use of the Web API
 
 1. Specific conditions for the use of the Web API may be specified in the Plan selected by the Customer, including the duration of the subscription for the use of the Web API  and the applicable Fee (if applicable). TC reserves the right to change the conditions and Fee of the Plan from time to time, upon prior notice to the Customer. If such change will take effect during an ongoing subscription period, the Customer may terminate the Plan via its user account against the date at which the changed Plan will take effect. 
 1. Subject to full payment of the Fee and compliance with the Agreement, TC hereby grants the Customer a limited, revocable, non-transferable, non-exclusive, worldwide license for the duration of the Agreement to use the Web API for the internal business purposes of the Customer, and, if agreed, to give the Customer’s Affiliates access to the Web API for their internal business purposes, subject to the terms and conditions in the Agreement, which license the Customer hereby accepts. The license does not include a right to grant sublicenses.
@@ -66,7 +66,11 @@ Definitions in the Agreement importing the singular shall include the plural and
 1. The Customer acknowledges and agrees that the Web API is made available to it by TC on an “as is” and “as available” basis, and that TC does not give any warranties in relation to the Web API, including that the Web API is suitable for the purpose for which Licensee intends to use it, free of defects, are provided without interruptions, meet any of the Customer’s requirements or (technical) specifications, or do not contain any security measures or functions, open source software, source available software, or harmful code.
 1. TC is not required to permit any use of the Web API in excess of the use specified in the Plan, and may lower the performance of the Web API or suspend the Web API if the agreed usage has been reached for a given period.
 
+## ARTICLE 4: Performance
 
+1. TC will provide the Web API with the care that may be required of a reasonably acting and competent professional service provider. 
+1. Unless agreed otherwise, information on delivery and service provision times, deadlines, and service levels are non-binding, meaning that TC is not automatically in default (verzuim) by not meeting a service provision time, deadline, or service level. 
+1. TC may use Affiliates and subcontractors for the performance of its obligations under the Agreement. To the extent such Affiliates and subcontractors will process personal data, TC will inform the Customer in advance.
 
 
 
