@@ -12,7 +12,7 @@ Definitions in the Agreement importing the singular shall include the plural and
 
 **Affiliates** meaning all companies affiliated with a party.
 
-**Agreement** meaning the arrangements between TC and Customer on the delivery of the Web API by TC to Customer, of which the Terms form an integral part.
+**Agreement** meaning the arrangements between TC and Customer on the provision of the Web API to Customer, of which the Terms form an integral part.
 
 **Web API** meaning a set of definitions and protocols for building and integrating application software that is accessed using the HTTP protocol that can be used to create, edit and render PDF documents. When referred to, the Web API is considered to include any or all of the tasks, roles and services required for making available the Web API in accordance with the current Plan and related maintenance and support as specified in the Agreement.
 
@@ -20,13 +20,13 @@ Definitions in the Agreement importing the singular shall include the plural and
 
 **Customer** meaning the legal entity that subscribes to the Web API from TC.
 
-**Confidential Information** is any information, software, documentation, technology, algorithms, materials, which is or are disclosed by a party (and/or its Affiliates) to the other party (and/or its Affiliates) in connection with the Agreement, whether orally or in writing and whether or not such information is expressly stated to be confidential or marked as such, and shall include information in connection with or related to intellectual property rights, know-how, trade secrets, trade and business names and any other similar rights or interests and any applications for the foregoing.
+**Confidential Information** meaning any information, software, documentation, technology, algorithms, materials, which is or are disclosed by a party (and/or its Affiliates) to the other party (and/or its Affiliates) in connection with the Agreement, whether orally or in writing and whether or not such information is expressly stated to be confidential or marked as such, and shall include information in connection with or related to intellectual property rights, know-how, trade secrets, trade and business names and any other similar rights or interests and any applications for the foregoing.
 
-**User Account** a web portal for the purpose of managing resources related to the web API, provided by TC that the Customers authentcates to.
+**User Account** meaning an identity created for the Customers in a website provided by TC. The Customer needs to authenticate to the website for the purpose of managing resources related to the web API.
 
 **Fee** meaning all charges, fees and costs applicable to the Web API, including the periodic Fee as specified in the selected Plan.
 
-**Plan** meaning a subscription type for the use of the Web API. The prevailing conditions (e.g. duration of the Plan, storage capacity, and number of PDF files within subscription) and the periodic Fee of each Plan are specified on the user account page of the Customer.
+**Plan** meaning a subscription type for the use of the Web API. The prevailing conditions (e.g. duration of the Plan, storage capacity, and PDF creation limits) and the periodic Fee of each Plan are specified in the User Account of the Customer.
 
 **TC** meaning TallComponents B.V., established at Hogeweg 4, 6572BA Berg en Dal, The Netherlands, and registered at the Dutch chamber of commerce with number 12040571.
 
@@ -44,7 +44,7 @@ Definitions in the Agreement importing the singular shall include the plural and
 
 ## ARTICLE 2: User account, selection of Plan
 
-1. The Customer shall create a user account on the website of TC to be able to use the Web API. TC may change the contents and layout of the user account from time to time. 
+1. The Customer shall create a User Account on the website of TC to be able to use the Web API. TC may change the contents and layout of the user account from time to time. 
 1. The Customer can select the Plan, upgrade, downgrade or terminate the current Plan, and monitor the use of the Web API on the user account page. TC does not guarantee that the details on the user account page are always correct and up to date.  
 1. The Plans offered to Customer may be free or paid. In the event Customer wishes to select a paid Plan, the Customer authorizes payment via the user account. 
 1. Unless the Customer upgrades, downgrades or terminates a Plan at the end of the subscription period, a Plan will be automatically renewed for subsequent subscription periods of the same duration as the initial subscription period at the end of each subscription period.
