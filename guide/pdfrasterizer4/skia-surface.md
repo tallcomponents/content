@@ -2,7 +2,7 @@
 
 Starting with version 4.0, we use the [Skia 2D graphics library](https://skia.org) to render PDF pages. 
 Methods `Page.Save` and `Document.ConvertToTiff` can be used to render pages or documents directly to single- or multipage raster images.
-It is however also possible to render to a Skia surface. This is demonstrated by the following code sample.
+It is however also possible to render to a Skia surface. This is demonstrated by the following code samples.
 
 ## Open PDF and select the first page
 
