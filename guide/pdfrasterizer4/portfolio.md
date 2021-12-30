@@ -6,8 +6,8 @@ PDF portfolios allows you to keep multiple files together for distribution or ar
 
 The following code sample shows how to enumerate embedded files (if any) and recognize PDF documents. 
 Once a PDF document is extracted, it can be rendered as a regular PDF document as discussed elsewhere in this guide: 
-- [Convert to TIFF](convert-to-tiff)
-- [Save as bitmap](save-as-bitmap)
+- [Convert to TIFF](render-to-tiff)
+- [Save as bitmap](render-to-bitmap)
 - [Render to Skia surface](skia-surface)
 
 ``` csharp
