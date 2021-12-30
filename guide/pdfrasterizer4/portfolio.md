@@ -9,6 +9,8 @@ Once a PDF document is extracted, it can be rendered as a regular PDF document a
 - [Convert to TIFF](render-to-tiff)
 - [Save as bitmap](render-to-bitmap)
 - [Render to Skia surface](skia-surface)
+- [Render to Xamarin Android widget](android)
+- [Render to Xamarin iOS view](ios)
 
 ``` csharp
 using (var stream = new Document(new FileStream(path, FileMode.Open, FileAccess.Read))
