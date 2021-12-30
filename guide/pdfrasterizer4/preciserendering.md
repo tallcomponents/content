@@ -8,7 +8,7 @@ The following compares the rendering of PDFRasterizer.NET 3.0, 4.0 and Adobe PDF
 
 PDFRasterizer.NET 4.0 has implemented all blending modes in contrast with version 3.0. It is possible to see differences in rendering on the next examples.
 
-### Luminosity blending mode ([PDF](/guide/pdfrasterizer4/media/comp-rast/Blending.pdf))
+### Luminosity blending mode
 
 In the following example, a light blue colored rectangle is rendered in the background, an image partially overlaps this rectangle and luminosity blending mode is used for rendering image.
 
@@ -29,7 +29,7 @@ The following examples show all blending modes. Each PDF has two images that ove
 Most left strip is fully transparent most right strip is opaque. Rest strips are semitransparent with growing opacity from left to right.
 Foreground image is similar to previous one. It contains horizontal brown strips with different opacity growing from top to down.
 
-### Color ([PDF](/guide/pdfrasterizer4/media/a/comp-rast/BM_Color.pdf))
+### Color
 
 <table>
 	<tr>
@@ -44,7 +44,7 @@ Foreground image is similar to previous one. It contains horizontal brown strips
 	</tr>
 </table>
 
-### Color Burn ([PDF](pdfrasterizer4/content/guide/pdfrasterizer4/media/comp-rast/BM_ColorBurn.pdf))
+### Color Burn
 
 <table>
 	<tr>
@@ -59,7 +59,7 @@ Foreground image is similar to previous one. It contains horizontal brown strips
 	</tr>
 </table>
 
-### Color Dodge ([PDF](/guide/pdfrasterizer4/media/comp-rast/BM_ColorDodge.pdf))
+### Color Dodge
 
 <table>
 	<tr>
@@ -74,7 +74,7 @@ Foreground image is similar to previous one. It contains horizontal brown strips
 	</tr>
 </table>
 
-### Darken ([PDF](/guide/pdfrasterizer4/media/comp-rast/BM_Darken.pdf))
+### Darken
 
 <table>
 	<tr>
@@ -89,7 +89,7 @@ Foreground image is similar to previous one. It contains horizontal brown strips
 	</tr>
 </table>
 
-### Difference ([PDF](/guide/pdfrasterizer4/media/comp-rast/BM_Difference.pdf))
+### Difference
 
 <table>
 	<tr>
@@ -104,7 +104,7 @@ Foreground image is similar to previous one. It contains horizontal brown strips
 	</tr>
 </table>
 
-### Exclusion ([PDF](/guide/pdfrasterizer4/media/comp-rast/BM_Exclusion.pdf))
+### Exclusion
 
 <table>
 	<tr>
@@ -119,7 +119,7 @@ Foreground image is similar to previous one. It contains horizontal brown strips
 	</tr>
 </table>
 
-### Hard Light ([PDF](/guide/pdfrasterizer4/media/comp-rast/BM_HardLight.pdf))
+### Hard Light
 
 <table>
 	<tr>
@@ -134,7 +134,7 @@ Foreground image is similar to previous one. It contains horizontal brown strips
 	</tr>
 </table>
 
-### Hue ([PDF](/guide/pdfrasterizer4/media/comp-rast/BM_Hue.pdf))
+### Hue
 
 <table>
 	<tr>
@@ -149,7 +149,7 @@ Foreground image is similar to previous one. It contains horizontal brown strips
 	</tr>
 </table>
 
-### Lighten ([PDF](/guide/pdfrasterizer4/media/comp-rast/BM_Lighten.pdf))
+### Lighten
 
 <table>
 	<tr>
@@ -164,7 +164,7 @@ Foreground image is similar to previous one. It contains horizontal brown strips
 	</tr>
 </table>
 
-### Luminosity ([PDF](/guide/pdfrasterizer4/media/comp-rast/BM_Luminosity.pdf))
+### Luminosity
 
 <table>
 	<tr>
@@ -179,7 +179,7 @@ Foreground image is similar to previous one. It contains horizontal brown strips
 	</tr>
 </table>
 
-### Multiply ([PDF](/guide/pdfrasterizer4/media/comp-rast/BM_Multiply.pdf))
+### Multiply
 
 <table>
 	<tr>
@@ -194,7 +194,7 @@ Foreground image is similar to previous one. It contains horizontal brown strips
 	</tr>
 </table>
 
-### Normal ([PDF](/guide/pdfrasterizer4/media/comp-rast/BM_Normal.pdf))
+### Normal
 
 <table>
 	<tr>
@@ -209,7 +209,7 @@ Foreground image is similar to previous one. It contains horizontal brown strips
 	</tr>
 </table>
 
-### Overlay ([PDF](/guide/pdfrasterizer4/media/comp-rast/BM_Overlay.pdf))
+### Overlay
 
 <table>
 	<tr>
@@ -224,7 +224,7 @@ Foreground image is similar to previous one. It contains horizontal brown strips
 	</tr>
 </table>
 
-### Saturation ([PDF](/guide/pdfrasterizer4/media/comp-rast/BM_Saturation.pdf))
+### Saturation
 
 <table>
 	<tr>
@@ -239,7 +239,7 @@ Foreground image is similar to previous one. It contains horizontal brown strips
 	</tr>
 </table>
 
-### Screen ([PDF](/guide/pdfrasterizer4/media/comp-rast/BM_Screen.pdf))
+### Screen
 
 <table>
 	<tr>
@@ -254,7 +254,7 @@ Foreground image is similar to previous one. It contains horizontal brown strips
 	</tr>
 </table>
 
-### Soft Light ([PDF](/guide/pdfrasterizer4/media/comp-rast/BM_SoftLight.pdf))
+### Soft Light
 
 <table>
 	<tr>
@@ -273,7 +273,7 @@ Foreground image is similar to previous one. It contains horizontal brown strips
 
 The following examples show differences in image render quality.
 
-### Enlarged small image ([PDF](/guide/pdfrasterizer4/media/comp-rast/Image_enlarge.pdf))
+### Enlarged small image
 
 This is example shows how small image is rendered on the page when it is enlarged. This PDF has image of the size 2x2 pixels (read, blue, green and white squares).
 
@@ -290,7 +290,7 @@ This is example shows how small image is rendered on the page when it is enlarge
 	</tr>
 </table>
 
-### Image sharpness ([PDF](/guide/pdfrasterizer4/media/comp-rast/Image_rgb.pdf))
+### Image sharpness
 
 <table>
     <tr>
@@ -307,7 +307,7 @@ This is example shows how small image is rendered on the page when it is enlarge
     </tr>
 </table>
 
-### 1 bpc rgb image ([PDF](/guide/pdfrasterizer4/media/comp-rast/Image_rgb_1bpc.pdf))
+### 1 bpc rgb image
 
 When the 1 bpc (bits per component) image is renderd too small, Rasterizer4 renders in much better quality (look at small images of the butterfly).
 
@@ -326,7 +326,7 @@ When the 1 bpc (bits per component) image is renderd too small, Rasterizer4 rend
     </tr>
 </table>
 
-### 16 bpc Lab Color space ([PDF](/guide/pdfrasterizer4/media/comp-rast/Image_Lab16b_jpx.pdf))
+### 16 bpc Lab Color space
 
 Correctly decoded image with 16 bpc in Lab color space from JPX stream.
 
@@ -345,7 +345,7 @@ Correctly decoded image with 16 bpc in Lab color space from JPX stream.
     </tr>
 </table>
 
-### Image's soft mask ([PDF](/guide/pdfrasterizer4/media/comp-rast/Image_skew_smask_decode.pdf))
+### Image's soft mask
 
 Decode parameters in the image's soft mask are accepted. It is possible to see soft mask is semitransparent.
 
@@ -364,7 +364,7 @@ Decode parameters in the image's soft mask are accepted. It is possible to see s
     </tr>
 </table>
 
-### Image's soft mask matte color blending ([PDF](/guide/pdfrasterizer4/media/comp-rast/Image_smask_Matte.pdf))
+### Image's soft mask matte color blending
 
 Images's soft mask can have defined matte color which has to be used by rendered to blend soft mask before it's using for masking.
 
@@ -381,7 +381,7 @@ Images's soft mask can have defined matte color which has to be used by rendered
 	</tr>
 </table>
 
-## Soft mask in the Graphics state ([PDF](/guide/pdfrasterizer4/media/comp-rast/GS_SMask_alpha_image.pdf))
+## Soft mask in the Graphics state
 
 PDFRasterizer.NET 3.0 does not always apply a soft mask from graphics state during
 rendering images.
@@ -403,7 +403,7 @@ rendering images.
 
 ## Path rendering
 
-### Stroke and fill with semitransparent color or using blending mode ([PDF](/guide/pdfrasterizer4/media/comp-rast/Path_E.pdf))\
+### Stroke and fill with semitransparent color or using blending mode
 
 When stroke&fill operator is used for rendering paths and stroke color is semitransparent or other than normal blending mode is used fill color has not be visible through stroke color.
 
@@ -422,7 +422,7 @@ When stroke&fill operator is used for rendering paths and stroke color is semitr
     </tr>
 </table>
 
-### Line Dash Pattern ([PDF](/guide/pdfrasterizer4/media/comp-rast/Path_G.pdf))
+### Line Dash Pattern
 
 Dash pattern has to be applied properly. It is possible to see differences in rendering dashed lines mostly on green, violet and pink lines.
 
@@ -445,7 +445,7 @@ Dash pattern has to be applied properly. It is possible to see differences in re
 
 All seven shading types are rendered correctly by PDFRasterizer.NET 4.0. Version 3.0 supports only a few of them.
 
-### Shading type 1 ([PDF](/guide/pdfrasterizer4/media/comp-rast/Shading_type1_path.pdf))
+### Shading type 1
 
 This shading is not supported by PDFRasterizer.NET 3.0.
 
@@ -464,7 +464,7 @@ This shading is not supported by PDFRasterizer.NET 3.0.
     </tr>
 </table>
 
-### Shading type 2 ([PDF](/guide/pdfrasterizer4/media/comp-rast/Shading_type2_path_D.pdf))
+### Shading type 2
 
 Shading is not applied well for stroking color. Fill shading doesn't uses 'Background' attribute (in this example brown color) of shading definition in Rasterizer3.
 
@@ -483,7 +483,7 @@ Shading is not applied well for stroking color. Fill shading doesn't uses 'Backg
     </tr>
 </table>
 
-### Shading type 3 ([PDF](/guide/pdfrasterizer4/media/comp-rast/Shading_type3_path.pdf))
+### Shading type 3
 
 <table>
     <tr>
@@ -500,7 +500,7 @@ Shading is not applied well for stroking color. Fill shading doesn't uses 'Backg
     </tr>
 </table>
 
-### Shading type 4 ([PDF](/guide/pdfrasterizer4/media/comp-rast/Shading_type4_path.pdf))
+### Shading type 4
 
 This shading is not implemented in Rasterizer3.
 
@@ -519,7 +519,7 @@ This shading is not implemented in Rasterizer3.
     </tr>
 </table>
 
-### Shading type 5 ([PDF](/guide/pdfrasterizer4/media/comp-rast/Shading_type5_path.pdf))
+### Shading type 5
 
 This shading is not implemented in Rasterizer3.
 
@@ -538,7 +538,7 @@ This shading is not implemented in Rasterizer3.
     </tr>
 </table>
 
-### Shading type 6 ([PDF](/guide/pdfrasterizer4/media/comp-rast/Shading_type6_path.pdf))
+### Shading type 6
 
 This shading is not implemented in Rasterizer3.
 
@@ -557,7 +557,7 @@ This shading is not implemented in Rasterizer3.
     </tr>
 </table>
 
-### Shading type 7 ([PDF](/guide/pdfrasterizer4/media/comp-rast/Shading_type7_path.pdf))
+### Shading type 7
 
 Shading type 7 is not implemented properly in Ratserizer3.
 
@@ -576,7 +576,7 @@ Shading type 7 is not implemented properly in Ratserizer3.
     </tr>
 </table>
 
-### Shading & Text ([PDF](/guide/pdfrasterizer4/media/comp-rast/Shading_type2_text_B.pdf))
+### Shading & Text
 
 Again shading doesn't uses 'Background' attribute (in this example brown color) of shading definition in Rasterizer3. Therefor some letters are not visible.
 
@@ -595,7 +595,7 @@ Again shading doesn't uses 'Background' attribute (in this example brown color) 
     </tr>
 </table>
 
-### Shading & Image as mask ([PDF](/guide/pdfrasterizer4/media/comp-rast/Shading_type2_mask.pdf))
+### Shading & Image as mask
 
 1 bpc gray image (map of the sky) is used as mask for shading of type 2. Rasterizer3 is not able to apply mask on shadings. Blue rectangle is rendered in the background to demonstrate mask is rendered well.
 
@@ -618,7 +618,7 @@ Again shading doesn't uses 'Background' attribute (in this example brown color) 
 
 Rasterizer3 doesn't implement transparency groups (next only TGs is used) in contrast with Rasterizer4. Rasterizer4 implements only isolated non-knockout TGs. It is possible to see differences in the next examples. Brown rectangle is rendered on the pages. Two blue triangles are rendered in the TG which is combined with background page (brown rectangle) by using different blending modes.
 
-### Isolated non-knockout transparency group & Darken blending ([PDF](/guide/pdfrasterizer4/media/comp-rast/TGB-I-NK.pdf))
+### Isolated non-knockout transparency group & Darken blending
 
 Darken blending mode and transparency 0.753 is used for rendering TG.
 
@@ -637,7 +637,7 @@ Darken blending mode and transparency 0.753 is used for rendering TG.
     </tr>
 </table>
 
-### Isolated non-knockout transparency group & Difference blending ([PDF](/guide/pdfrasterizer4/media/comp-rast/TGC-I-NK.pdf))
+### Isolated non-knockout transparency group & Difference blending
 
 Difference blending mode and transparency 0.753 is used for rendering TG.
 
@@ -656,7 +656,7 @@ Difference blending mode and transparency 0.753 is used for rendering TG.
     </tr>
 </table>
 
-### Isolated non-knockout transparency group & Multiply blending ([PDF](/guide/pdfrasterizer4/media/comp-rast/TGE-I-NK.pdf))
+### Isolated non-knockout transparency group & Multiply blending
 
 Multiply blending mode and transparency 0.753 is used for rendering TG. In contrast with previous examples TG contains two rectangles with different colors. First one is blue second one is green. Difference blending mode and transparency 0.753 is used for rendering these triangles.
 
