@@ -1,4 +1,4 @@
-introduction:guide\pdfkit\introduction.md:Introduction
+introduction:guide\pdfkit5\introduction.md:Introduction
 document-structure:guide\pdfkit\document-structure.md:Document structure
 navigation:guide\pdfkit\navigation.md:Navigation
 annotations:guide\pdfkit\annotations.md:Annotations

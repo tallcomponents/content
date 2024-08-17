@@ -9,7 +9,7 @@ The Document class is the top-level class of the TallPDF.NET object model.
 A typical PDF generation scenario consists of the following basis steps: 1. instantiate a Document; 2. add content and configure document settings; 3. save the document to any stream (typically disk, memory or HTTP response). This is shown in the following code snippets:
 
 
-```
+``` csharp
 // create document
 Document doc = new Document();
 
@@ -26,7 +26,7 @@ using ( FileStream file = new FileStream(
 Code sample: Create a new document, add content (omitted) and save it to disk in C#
 
 
-```
+``` vbnet
 ' create a document
 Dim doc As New Document
 
@@ -53,7 +53,7 @@ Document.Write has a number of overloads. Depending on what overload you use, th
 Property DocumentInfo lets you set document level information such as the author and title. This is shown in the next code:
 
 
-```
+``` csharp
 Document doc;
 
 doc.DocumentInfo.Author = "Chris Sharp";
@@ -63,7 +63,7 @@ doc.DocumentInfo.Title = "TallPDF.NET 4.0 Developer Guide";
 Code sample: Set document info in C#
 
 
-```
+``` vbnet
 Dim doc As New Document
 
 doc.DocumentInfo.Author = "Chris Sharp"
@@ -79,7 +79,7 @@ Code sample: Set document info in VB.NET
 The Security property lets you assign passwords and limit user privileges. The following code creates a document that requires a password to open and cannot be printed:
 
 
-```
+``` csharp
 Document doc = new Document();
 
 PasswordSecurity sec = new PasswordSecurity();
@@ -92,7 +92,7 @@ doc.Security = sec;
 Code sample: Set security in C#
 
 
-```
+``` vbnet
 Dim doc As New Document
 
 Dim sec As New PasswordSecurity()
@@ -120,7 +120,7 @@ By default the Security property is null (or Nothing) meaning that the document 
 The ViewerPreferences property allows you to control the way that a PDF reader application displays the PDF initially. E.g. you can set the initial zoom or hide toolbars or set the reader to fullscreen mode. Here are some typical code samples:
 
 
-```
+``` csharp
 Document doc = new Document();
 
 ViewerPreferences vp = new ViewerPreferences();
@@ -131,7 +131,7 @@ doc.ViewerPreferences = vp;
 Code sample: Setting viewer preferences in C#
 
 
-```
+``` vbnet
 Dim doc As New Document
 
 Dim vp As New ViewerPreferences
@@ -141,7 +141,6 @@ doc.ViewerPreferences = vp
 ```
 
 Code sample: Setting viewer preferences in VB.NET
-
 
 
 ## Actions
@@ -160,7 +159,7 @@ OpenActions: This sequence of actions will be executed by the PDF reader during 
 The following code sample generates a PDF document so that a text field is filled with the current date just before it is printed. This way, you can always see on the print out when it was printed. How to add fields to a PDF document is discussed in Section Field Shapes in Chapter [Drawings and Shapes](drawings-and-shapes).
 
 
-```
+``` csharp
 Document document = new Document();
 
 JavaScriptAction action = new JavaScriptAction( 
@@ -192,7 +191,7 @@ Code sample: Add a BeforePrintAction to a document in C#
 The property JavaScripts lets you declare document level JavaScript. This typically contains common functions and constants that can be reused from other JavaScript actions. See JavaScript actions for more a more detailed discussion. The following code sample shows how to declare a JavaScript function at document level:
 
 
-```
+``` csharp
 JavaScript javaScript = new JavaScript("function foo() { return 10; }");
 document.JavaScripts.Add( javaScript );
 ```
@@ -200,7 +199,7 @@ document.JavaScripts.Add( javaScript );
 Code sample: Declare a document-level JavaScript function in C#
 
 
-```
+``` vbnet
 Dim javaScript As New JavaScript("function foo() { return 10; }")
 doc.JavaScripts.Add(javaScript)
 ```
