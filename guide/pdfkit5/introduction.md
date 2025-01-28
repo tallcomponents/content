@@ -1,6 +1,6 @@
 # Developer Guide
 
-This developer guide will help you understand the PDFKit.NET 5.0 class library. It walks through the main concepts and illustrates them with code samples. This guide is not a type reference. Instead, this is included in the <a href="http://www.tallcomponents.com/pdfkit/download" title="Optional alternate text">evaluation download</a>.
+This developer guide will help you understand the PDFKit.NET 5.0 class library. It walks through the main concepts and illustrates them with code samples. This guide is not a type reference. Instead, this is included in the <a href="https://tallcomponents.com/products/pdfkit5/download" title="Optional alternate text">evaluation download</a>.
 
 
 
